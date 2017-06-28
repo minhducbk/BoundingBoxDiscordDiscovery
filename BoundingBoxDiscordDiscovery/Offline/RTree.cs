@@ -282,8 +282,8 @@ namespace BoundingBoxDiscordDiscovery.Offline
                     foundIndex = n.findEntry(r, id);
                 }
 
-                parents.Pop();
-                parentsEntry.Pop();
+                parents.Pop();                      // maybe error in condenseTree
+                parentsEntry.Pop();                 // maybe error in condenseTree
             } // while not found
 
             if (foundIndex != -1)
