@@ -63,6 +63,7 @@
     <Compile Include="Offline\SubSequence.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\Constant.cs" />
     <Compile Include="Utils\MathFunc.cs" />
     <Compile Include="Utils\ReadFile.cs" />
     <Compile Include="Utils\WriteFile.cs" />

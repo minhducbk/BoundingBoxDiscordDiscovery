@@ -15,6 +15,11 @@ namespace BoundingBoxDiscordDiscovery.Offline
         internal int DIMENSIONS;
 
         /**
+         * Index of subsequence in time series. Rectangle of entry in leaf Node indicate for a subsequence.
+         */
+        private int indexSubSeq;
+
+        /**
          * array containing the minimum value for each dimension; ie { min(x), min(y) }
          */
         internal double[] min;
@@ -32,6 +37,29 @@ namespace BoundingBoxDiscordDiscovery.Offline
         {
             this.min = new double[DIMENSIONS];
             this.max = new double[DIMENSIONS];
+        }
+
+        /**
+         * Constructor.
+         * 
+         * @param min array containing the minimum value for each dimension; ie { min(x), min(y) }
+         * @param max array containing the maximum value for each dimension; ie { max(x), max(y) }
+         * @param indexSubSeq containing the value for index of subsequence in leaf entry.
+         */
+        public Rectangle(double[] min, double[] max, int indexSubSeq)
+        {
+            DIMENSIONS = min.Length;
+            this.indexSubSeq = indexSubSeq;
+            //if (min.Length != DIMENSIONS || max.Length != DIMENSIONS)
+            //{
+            //    throw new Exception("Error in Rectangle constructor: " +
+            //              "min and max arrays must be of length " + DIMENSIONS);
+            //}
+
+            this.min = new double[DIMENSIONS];
+            this.max = new double[DIMENSIONS];
+
+            set(min, max);
         }
 
         /**
@@ -242,7 +270,7 @@ namespace BoundingBoxDiscordDiscovery.Offline
             return (double)Math.Sqrt(distanceSquared);
         }
 
-        ///////////////////////////////////////////// SHOULD BE MODIFIED /////////////////////////////////
+        ///////////////////////////////////////////// ALREADY MODIFIED /////////////////////////////////
         /**
          * Calculate the area by which this rectangle would be enlarged if
          * added to the passed rectangle. Neither rectangle is altered.
@@ -253,13 +281,14 @@ namespace BoundingBoxDiscordDiscovery.Offline
          */
         internal double enlargement(Rectangle r)
         {
-            double enlargedArea = (Math.Max(max[0], r.max[0]) - Math.Min(min[0], r.min[0])) *
-                                 (Math.Max(max[1], r.max[1]) - Math.Min(min[1], r.min[1]));
+            double enlargedArea = 1;
+            for (int i = 0; i < DIMENSIONS; i++)
+                enlargedArea *= (Math.Max(max[i], r.max[i]) - Math.Min(min[i], r.min[i]));
 
             return enlargedArea - area();
         }
 
-        ///////////////////////////////////////////// SHOULD BE MODIFIED /////////////////////////////////
+        ///////////////////////////////////////////// ALREADY MODIFIED /////////////////////////////////
         /**
          * Compute the area of this rectangle.
          * 
@@ -267,7 +296,10 @@ namespace BoundingBoxDiscordDiscovery.Offline
          */
         internal double area()
         {
-            return (max[0] - min[0]) * (max[1] - min[1]);
+            double value = 1;
+            for (int i = 0; i < DIMENSIONS; i++)
+                value *= max[i] - min[i];
+            return value;
         }
 
         /**
@@ -385,6 +417,14 @@ namespace BoundingBoxDiscordDiscovery.Offline
             }
             sb.Append(')');
             return sb.ToString();
+        }
+
+        /**
+        * Return the value of indexSubSeq
+        */
+        public int getIndexSubSeq()
+        {
+            return indexSubSeq;
         }
     }
 }

@@ -133,11 +133,18 @@ namespace BoundingBoxDiscordDiscovery.Offline
             log.Info("init() " + " MaxNodeEntries = " + maxNodeEntries + ", MinNodeEntries = " + minNodeEntries);
         }
 
+
+        /// <summary>
+        /// Get Dictionary Node of RTree
+        /// </summary>
+        public Dictionary<int, Node<T>> getNodeMap()
+        {
+            return nodeMap;
+        }
+
         /// <summary>
         /// Adds an item to the spatial index
         /// </summary>
-        /// <param name="r"></param>
-        /// <param name="item"></param>
         public void Add(Rectangle r, T item)
         {
             idcounter++;
@@ -149,6 +156,17 @@ namespace BoundingBoxDiscordDiscovery.Offline
             add(r, id);
         }
 
+        /// <summary>
+        /// Adds an item to the spatial index
+        /// </summary>
+        public void Add(Rectangle r)
+        {
+            idcounter++;
+            int id = idcounter;
+
+            add(r, id);
+        }
+
         private void add(Rectangle r, int id)
         {
             if (log.IsDebugEnabled)
@@ -156,7 +174,7 @@ namespace BoundingBoxDiscordDiscovery.Offline
                 log.Debug("Adding rectangle " + r + ", id " + id);
             }
 
-            add(r.copy(), id, 1);
+            add(r, id, 1);
 
             msize++;
         }
@@ -164,9 +182,6 @@ namespace BoundingBoxDiscordDiscovery.Offline
         /// <summary>
         /// Adds a new entry at a specified level in the tree
         /// </summary>
-        /// <param name="r"></param>
-        /// <param name="id"></param>
-        /// <param name="level"></param>
         private void add(Rectangle r, int id, int level)
         {
             // I1 [Find position for new record] Invoke ChooseLeaf to select a 
@@ -211,12 +226,59 @@ namespace BoundingBoxDiscordDiscovery.Offline
             }
         }
 
+        /**
+         *  Used by add(). Chooses a leaf to add the rectangle to.
+         */
+        private Node<T> chooseNode(Rectangle r, int level)
+        {
+            // CL1 [Initialize] Set N to be the root node
+            Node<T> n = getNode(rootNodeId);
+            parents.Clear();
+            parentsEntry.Clear();
+
+            // CL2 [Leaf check] If N is a leaf, return N
+            while (true)
+            {
+                if (n == null)
+                {
+                    log.Error("Could not get root Node<T> (" + rootNodeId + ")");
+                }
+
+                if (n.level == level)
+                {
+                    return n;
+                }
+
+                // CL3 [Choose subtree] If N is not at the desired level, let F be the entry in N 
+                // whose rectangle FI needs least enlargement to include EI. Resolve
+                // ties by choosing the entry with the rectangle of smaller area.
+                double leastEnlargement = n.getEntry(0).enlargement(r);
+                int index = 0; // index of rectangle in subtree
+                for (int i = 1; i < n.entryCount; i++)
+                {
+                    Rectangle tempRectangle = n.getEntry(i);
+                    double tempEnlargement = tempRectangle.enlargement(r);
+                    if ((tempEnlargement < leastEnlargement) ||
+                        ((tempEnlargement == leastEnlargement) &&
+                         (tempRectangle.area() < n.getEntry(index).area())))
+                    {
+                        index = i;
+                        leastEnlargement = tempEnlargement;
+                    }
+                }
+
+                parents.Push(n.nodeId);
+                parentsEntry.Push(index);
+
+                // CL4 [Descend until a leaf is reached] Set N to be the child Node&lt;T&gt; 
+                // pointed to by Fp and repeat from CL2
+                n = getNode(n.ids[index]);
+            }
+        }
+
         /// <summary>
         /// Deletes an item from the spatial index
         /// </summary>
-        /// <param name="r"></param>
-        /// <param name="item"></param>
-        /// <returns></returns>
         public bool Delete(Rectangle r, T item)
         {
             int id = ItemsToIds[item];
@@ -378,9 +440,6 @@ namespace BoundingBoxDiscordDiscovery.Offline
         /// <summary>
         /// Retrieve nearest items to a point in radius furthestDistance
         /// </summary>
-        /// <param name="p">Point of origin</param>
-        /// <param name="furthestDistance">maximum distance</param>
-        /// <returns>List of items</returns>
         public List<T> Nearest(SubSequence p, double furthestDistance)
         {
             List<T> retval = new List<T>();
@@ -406,8 +465,6 @@ namespace BoundingBoxDiscordDiscovery.Offline
         /// <summary>
         /// Retrieve items which intersect with Rectangle r
         /// </summary>
-        /// <param name="r"></param>
-        /// <returns></returns>
         public List<T> Intersects(Rectangle r)
         {
             List<T> retval = new List<T>();
@@ -428,8 +485,6 @@ namespace BoundingBoxDiscordDiscovery.Offline
         /// <summary>
         /// find all rectangles in the tree that are contained by the passed rectangle
         /// written to be non-recursive (should model other searches on this?)</summary>
-        /// <param name="r"></param>
-        /// <returns></returns>
         public List<T> Contains(Rectangle r)
         {
             List<T> retval = new List<T>();
@@ -544,15 +599,9 @@ namespace BoundingBoxDiscordDiscovery.Offline
             return nextNodeId;
         }
 
-
-
-
-
         /// <summary>
         /// Get a Node&lt;T&gt; object, given the ID of the node.
         /// </summary>
-        /// <param name="index"></param>
-        /// <returns></returns>
         private Node<T> getNode(int index)
         {
             return (Node<T>)nodeMap[index];
@@ -580,9 +629,6 @@ namespace BoundingBoxDiscordDiscovery.Offline
         /// Split a node. Algorithm is taken pretty much verbatim from
         /// Guttman's original paper.
         /// </summary>
-        /// <param name="n"></param>
-        /// <param name="newRect"></param>
-        /// <param name="newId"></param>
         /// <returns>return new Node&lt;T&gt; object.</returns>
         private Node<T> splitNode(Node<T> n, Rectangle newRect, int newId)
         {
@@ -679,10 +725,6 @@ namespace BoundingBoxDiscordDiscovery.Offline
         /// Pick the seeds used to split a node.
         /// Select two entries to be the first elements of the groups
         /// </summary>
-        /// <param name="n"></param>
-        /// <param name="newRect"></param>
-        /// <param name="newId"></param>
-        /// <param name="newNode"></param>
         private void pickSeeds(Node<T> n, Rectangle newRect, int newId, Node<T> newNode)
         {
             // Find extreme rectangles along all dimension. Along each dimension,
@@ -790,9 +832,6 @@ namespace BoundingBoxDiscordDiscovery.Offline
         /// entry not yet in a group, calculate the area increase required
         /// in the covering rectangles of each group  
         /// </summary>
-        /// <param name="n"></param>
-        /// <param name="newNode"></param>
-        /// <returns></returns>
         private int pickNext(Node<T> n, Node<T> newNode)
         {
             double maxDifference = double.NegativeInfinity;
@@ -875,7 +914,7 @@ namespace BoundingBoxDiscordDiscovery.Offline
             return next;
         }
 
-
+        ////////////////////////////////////////////////////NEED ADJUSTMENT IN DISTANCE MEASURE
         /// <summary>
         /// Recursively searches the tree for the nearest entry. Other queries
         /// call execute() on an IntProcedure when a matching entry is found; 
@@ -885,10 +924,6 @@ namespace BoundingBoxDiscordDiscovery.Offline
         /// entry IDs.
         /// </summary>
         /// <remarks>TODO rewrite this to be non-recursive?</remarks>
-        /// <param name="p"></param>
-        /// <param name="n"></param>
-        /// <param name="nearestDistance"></param>
-        /// <returns></returns>
         private double nearest(SubSequence p, Node<T> n, double nearestDistance)
         {
             for (int i = 0; i < n.entryCount; i++)
@@ -927,9 +962,6 @@ namespace BoundingBoxDiscordDiscovery.Offline
         /// [x] TODO rewrite this to be non-recursive? Make sure it
         /// doesn't slow it down.
         /// </summary>
-        /// <param name="r"></param>
-        /// <param name="v"></param>
-        /// <param name="n"></param>
         private void intersects(Rectangle r, intproc v, Node<T> n)
         {
             for (int i = 0; i < n.entryCount; i++)
@@ -946,56 +978,6 @@ namespace BoundingBoxDiscordDiscovery.Offline
                         intersects(r, v, childNode);
                     }
                 }
-            }
-        }
-
-        /**
-         *  Used by add(). Chooses a leaf to add the rectangle to.
-         */
-        private Node<T> chooseNode(Rectangle r, int level)
-        {
-            // CL1 [Initialize] Set N to be the root node
-            Node<T> n = getNode(rootNodeId);
-            parents.Clear();
-            parentsEntry.Clear();
-
-            // CL2 [Leaf check] If N is a leaf, return N
-            while (true)
-            {
-                if (n == null)
-                {
-                    log.Error("Could not get root Node<T> (" + rootNodeId + ")");
-                }
-
-                if (n.level == level)
-                {
-                    return n;
-                }
-
-                // CL3 [Choose subtree] If N is not at the desired level, let F be the entry in N 
-                // whose rectangle FI needs least enlargement to include EI. Resolve
-                // ties by choosing the entry with the rectangle of smaller area.
-                double leastEnlargement = n.getEntry(0).enlargement(r);
-                int index = 0; // index of rectangle in subtree
-                for (int i = 1; i < n.entryCount; i++)
-                {
-                    Rectangle tempRectangle = n.getEntry(i);
-                    double tempEnlargement = tempRectangle.enlargement(r);
-                    if ((tempEnlargement < leastEnlargement) ||
-                        ((tempEnlargement == leastEnlargement) &&
-                         (tempRectangle.area() < n.getEntry(index).area())))
-                    {
-                        index = i;
-                        leastEnlargement = tempEnlargement;
-                    }
-                }
-
-                parents.Push(n.nodeId);
-                parentsEntry.Push(index);
-
-                // CL4 [Descend until a leaf is reached] Set N to be the child Node&lt;T&gt; 
-                // pointed to by Fp and repeat from CL2
-                n = getNode(n.ids[index]);
             }
         }
 

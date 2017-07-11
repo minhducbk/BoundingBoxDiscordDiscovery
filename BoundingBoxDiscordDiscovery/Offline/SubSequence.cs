@@ -22,9 +22,6 @@ namespace BoundingBoxDiscordDiscovery.Offline
         /// <summary>
         /// Constructor.
         /// </summary>
-        /// <param name="x">The x coordinate of the point</param>
-        /// <param name="y">The y coordinate of the point</param>
-        /// <param name="z">The z coordinate of the point</param>
         public SubSequence(List<double> timeSeries, int nLength)
         {
             DIMENSIONS = nLength;
