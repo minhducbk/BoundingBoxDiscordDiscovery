@@ -31,12 +31,14 @@ namespace BoundingBoxDiscordDiscovery.Offline
 
         /**
          * Constructor.
-         * @param NLength containing the value of DIMENSIONS
+         * @param NLength containing the value of DIMENSIONS - fixed by catbuilts (add DIMENSIONS)
          */
         public Rectangle(int NLength)
         {
+            this.DIMENSIONS = NLength;
             this.min = new double[DIMENSIONS];
             this.max = new double[DIMENSIONS];
+
         }
 
         /**
@@ -102,7 +104,7 @@ namespace BoundingBoxDiscordDiscovery.Offline
          */
         internal Rectangle copy()
         {
-            return new Rectangle(min, max);
+            return new Rectangle(min, max, indexSubSeq);
         }
 
         /**
@@ -425,6 +427,11 @@ namespace BoundingBoxDiscordDiscovery.Offline
         public int getIndexSubSeq()
         {
             return indexSubSeq;
+        }
+
+        public int getIndexSubSeq(int subtracted_by)
+        {
+            return indexSubSeq - subtracted_by;
         }
     }
 }

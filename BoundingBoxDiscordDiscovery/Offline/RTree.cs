@@ -277,6 +277,7 @@ namespace BoundingBoxDiscordDiscovery.Offline
         }
 
         /// <summary>
+        /// 
         /// Deletes an item from the spatial index
         /// </summary>
         public bool Delete(Rectangle r, T item)
@@ -289,8 +290,20 @@ namespace BoundingBoxDiscordDiscovery.Offline
                 IdsToItems.Remove(id);
                 ItemsToIds.Remove(item);
             }
+            //Console.WriteLine("id = " + id + "; is sucess = " + success);
             return success;
         }
+
+        /// <summary>
+        /// 
+        /// Deletes an item from the spatial index (made by Catbuilts)
+        /// </summary>
+       /* public bool Delete(Rectangle r, int id)
+        {
+            bool is_success = delete(r, id);
+            Console.WriteLine("id = " + id + "; is sucess = " + is_success);
+            return is_success;
+        }*/
 
         private bool delete(Rectangle r, int id)
         {
