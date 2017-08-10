@@ -447,6 +447,7 @@ namespace BoundingBoxDiscordDiscovery.Offline
                 }
                 e.entryCount = 0;
                 deletedNodeIds.Push(e.nodeId);
+                nodeMap.Remove(e.nodeId); 
             }
         }
 
