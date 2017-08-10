@@ -61,7 +61,8 @@ namespace BoundingBoxDiscordDiscovery
             for (int i = 0; i <= normData.Count - NLength; i++)
             {
                 List<double> subseq = normData.GetRange(i, NLength);
-                rTree.Add(new Offline.Rectangle(Utils.MathFunc.DTW_Min(subseq, D, R).ToArray(), Utils.MathFunc.DTW_Max(subseq, D, R).ToArray(), i));
+                Offline.Rectangle new_rec = new Offline.Rectangle(Utils.MathFunc.DTW_Min(subseq, D, R).ToArray(), Utils.MathFunc.DTW_Max(subseq, D, R).ToArray(), i);
+                rTree.Add(new_rec);
             }
 
             Dictionary<int, Node<int>> nodeMap = rTree.getNodeMap();

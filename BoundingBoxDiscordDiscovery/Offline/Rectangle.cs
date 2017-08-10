@@ -17,7 +17,7 @@ namespace BoundingBoxDiscordDiscovery.Offline
         /**
          * Index of subsequence in time series. Rectangle of entry in leaf Node indicate for a subsequence.
          */
-        private int indexSubSeq;
+        internal int indexSubSeq;
 
         /**
          * array containing the minimum value for each dimension; ie { min(x), min(y) }
@@ -102,7 +102,7 @@ namespace BoundingBoxDiscordDiscovery.Offline
          */
         internal Rectangle copy()
         {
-            return new Rectangle(min, max);
+            return new Rectangle(min, max, indexSubSeq);
         }
 
         /**
@@ -395,7 +395,7 @@ namespace BoundingBoxDiscordDiscovery.Offline
             StringBuilder sb = new StringBuilder();
 
             // min coordinates
-            sb.Append('(');
+            sb.Append(indexSubSeq.ToString() + ", (");
             for (int i = 0; i < DIMENSIONS; i++)
             {
                 if (i > 0)

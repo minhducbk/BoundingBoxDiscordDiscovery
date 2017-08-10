@@ -187,7 +187,7 @@ namespace BoundingBoxDiscordDiscovery.Utils
                 string s = String.Empty;//initialize the SAX word
 
                 for (int j = 0; j < W_LENGTH; j++)
-                    c_w.Add(-Constant.INFINITE);//set initial value for C_w
+                    c_w.Add(Constant.INFINITE);//set initial value for C_w
 
                 for (int j = 0; j < N_LENGTH * W_LENGTH; j++)
                 {
@@ -205,7 +205,7 @@ namespace BoundingBoxDiscordDiscovery.Utils
                     from_index = (N_LENGTH / W_LENGTH) * w_start;
                     to_index = (N_LENGTH / W_LENGTH) * (w_start + 1) - 1;
 
-                    c_w[w_start] = -Constant.INFINITE;
+                    c_w[w_start] = Constant.INFINITE;
                     for (int j = from_index; j <= to_index; j++)
                     {
                         c_w[w_start] = Math.Min(c_w[w_start], sequence[j]);
