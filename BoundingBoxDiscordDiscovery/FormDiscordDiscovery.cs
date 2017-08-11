@@ -19,6 +19,8 @@ namespace BoundingBoxDiscordDiscovery
         // Store best_loc and best_dic from Run Offline:
         public int best_so_far_loc;
         public double best_so_far_dist;
+        public int best_so_far_loc_offline;
+        public double best_so_far_dist_offline;
 
         public int N_length;
         public int D;
@@ -28,16 +30,29 @@ namespace BoundingBoxDiscordDiscovery
         public List<int> id_itemList;
         public int id_item;
 
+        public List<double> buffer;
+
+        bool is_call_from_online;
+
 
         public FormDiscordDiscovery()
         {
+            this.is_call_from_online = false;
             InitializeComponent();
         }
 
         private void btnRun_Click(object sender, EventArgs e)
         {
+            List<double> inputData;
+
+            //get input data:
+            if (this.is_call_from_online == true)
+                inputData = this.buffer;     
+  
+            else
+                inputData = ReadFile.readFileIntoList(txtFileName.Text);
+
             var watch = System.Diagnostics.Stopwatch.StartNew();///calc execution time
-            List<double> inputData = ReadFile.readFileIntoList(txtFileName.Text);
 
             //get NLength
             int NLength = Convert.ToInt16(txtNLength.Text);
@@ -50,8 +65,8 @@ namespace BoundingBoxDiscordDiscovery
             //get D (reduced dimesion)
             int D = Convert.ToInt16(txtD.Text);
 
-            this.id_item = int.MinValue;
-            this.rTree = new RTree<int>(maxEntry, minEntry);
+            int id_item = int.MinValue;
+            RTree<int> rtree = new RTree<int>(maxEntry, minEntry);
 
             List<int> candidateList = new List<int>();
             List<int> beginIndexInner = new List<int>();
@@ -81,13 +96,13 @@ namespace BoundingBoxDiscordDiscovery
                 List<double> subseq = inputData.GetRange(i, NLength);
                 id_item++;
                 Offline.Rectangle new_rec = new Offline.Rectangle(Utils.MathFunc.DTW_Min(subseq, D, R).ToArray(), Utils.MathFunc.DTW_Max(subseq, D, R).ToArray(), i);
-                rTree.Add(new_rec, id_item);
+                rtree.Add(new_rec, id_item);
                 recList.Add(new_rec);
                 id_itemList.Add(id_item);
             }
 
 
-            Dictionary<int, Node<int>> nodeMap = rTree.getNodeMap();
+            Dictionary<int, Node<int>> nodeMap = rtree.getNodeMap();
             List<Node<int>> leafNodes = nodeMap.Values.Where(node => node.level == 1).OrderBy(node => node.entryCount).ToList();
 
             for (int i = 0; i < leafNodes.Count; i++)
@@ -161,11 +176,28 @@ namespace BoundingBoxDiscordDiscovery
             long elapsedMs = watch.ElapsedMilliseconds;
             this.txtExeTime.Text = elapsedMs.ToString();
 
-            this.best_so_far_loc = best_so_far_loc;
-            this.best_so_far_dist = best_so_far_dist;
-            this.D = D;
-            this.R = R;
-            this.N_length = NLength;
+            if (this.is_call_from_online == true)
+            {
+                this.best_so_far_loc = best_so_far_loc;
+                this.best_so_far_dist = best_so_far_dist;
+                this.D = D;
+                this.R = R;
+                this.N_length = NLength;
+                this.rTree = rtree;
+                this.id_item = id_item;
+
+                this.is_call_from_online = false;
+            }
+            else
+            {
+                //return result to other variables:
+                this.best_so_far_loc_offline = best_so_far_loc;
+                this.best_so_far_dist_offline = best_so_far_dist;
+
+                //print timeExe to the console:
+                Console.WriteLine("ExeTime_offline=" + elapsedMs.ToString());
+            }
+           
 
             return;
         }
@@ -179,17 +211,17 @@ namespace BoundingBoxDiscordDiscovery
             // Read streaming data: 
             String streaming_filename = "ECG_5000_stream.txt";
             List<double> streaming_data = ReadFile.readFileIntoList(streaming_filename);
-
-            // Call 'Run Offline' for the first time, store results into variables ("this" object):
-            btnRun_Click(sender, e);
         
             //create a new buffer. In this demo, the buffer is training_data (edit later):
-            List<double> buffer = new List<double>();
+            this.buffer = new List<double>();
             buffer.AddRange(training_data);
 
-            //store the first and last subsequence of the buffer:
+            // Call 'Run Offline' for the first time, store results into variables ("this" object):
+            this.is_call_from_online = true;
+            btnRun_Click(sender, e);
+
+            //store the last subsequence of the buffer:
             List<double> last_sub = buffer.GetRange(buffer.Count - this.N_length, this.N_length);
-            List<double> first_sub = buffer.GetRange(0, this.N_length);
 
             // keep streaming until we have no more data points
             for (int index_stream = 0; index_stream < streaming_data.Count; index_stream++)
@@ -203,23 +235,17 @@ namespace BoundingBoxDiscordDiscovery
                 last_sub.RemoveAt(0);
                 List<double> new_sub = last_sub; // the same object
 
-                //Console.WriteLine("buffer.Count - this.N_length + 1 + index_stream = " + (buffer.Count - this.N_length + 1 + index_stream));
                 // Insert the new entry into the tree:
                 this.id_item++;
 
+                // Add the new rec to the tree:
                 Offline.Rectangle new_rec = new Offline.Rectangle(Utils.MathFunc.DTW_Min(new_sub, this.D, this.R).ToArray(), Utils.MathFunc.DTW_Max(new_sub, this.D, this.R).ToArray(), buffer.Count - this.N_length + 1 + index_stream);
-                
                 this.rTree.Add(new_rec, id_item);
                 recList.Add(new_rec);
                 this.id_itemList.Add(id_item);
 
                 //remove the oldest entry:
                 this.rTree.Delete(this.recList[index_stream], this.id_itemList[index_stream]);
-                
-           
-                //update first_sub:
-                first_sub.Add(buffer[index_stream + this.N_length]);
-                first_sub.RemoveAt(0);
                 
                 // update buffer:
                 buffer.Add(new_data_point);
@@ -233,7 +259,24 @@ namespace BoundingBoxDiscordDiscovery
 
                 watch.Stop(); //stop timer
                 long elapsedMs = watch.ElapsedMilliseconds;
-                this.txtExeTime.Text = elapsedMs.ToString();
+                //this.txtExeTime.Text = elapsedMs.ToString();
+
+                Console.WriteLine("ExeTime_Online=" + elapsedMs.ToString());
+
+                //call offline version to assure the results and compare the time executions:
+                btnRun_Click(sender, e);
+
+                //check:
+                if (this.best_so_far_loc == this.best_so_far_loc_offline)
+                    Console.WriteLine("checked, ok.");
+                else
+                {
+                    Console.WriteLine("The results are different. Stop Streaming !!!");
+                    return;
+                }
+
+                Console.WriteLine("------------------------");
+
             } // end For loop (streaming)
 
         } //end btnRunOnl_Click function
@@ -241,6 +284,8 @@ namespace BoundingBoxDiscordDiscovery
 
         public void RunOffline_Copy(List<double> buffer, int index_stream)
         {
+            /* This function is almost  the same as Offline version. We just edit some lines*/
+
             List<int> candidateList = new List<int>();
             List<int> beginIndexInner = new List<int>();
 
@@ -266,7 +311,7 @@ namespace BoundingBoxDiscordDiscovery
                 {
                     int beginIndex = candidateList.Count;
 
-                    // we change a bit at the following line, we subtract mbr indice by "index_stream+1":
+                    // we change a bit at the following line, we subtract mbr indice by "index_stream + 1":
                     candidateList = candidateList.Concat(leafEntries.Select(mbr => mbr.getIndexSubSeq(index_stream+1))).ToList();
                     beginIndexInner = beginIndexInner.Concat(Enumerable.Range(1, leafEntries.Count).Select(x => beginIndex)).ToList();
                 }
@@ -336,6 +381,7 @@ namespace BoundingBoxDiscordDiscovery
             bestSoFarDisVal.Text = best_so_far_dist.ToString();
             bestSoFarLocVal.Text = best_so_far_loc.ToString();
 
+            //update the results:
             this.best_so_far_loc = best_so_far_loc;
             this.best_so_far_dist = best_so_far_dist;
 
@@ -343,6 +389,7 @@ namespace BoundingBoxDiscordDiscovery
             Console.WriteLine("best_so_far_loc=" + best_so_far_loc);
             Console.WriteLine("best_so_far_dist=" + best_so_far_dist);
             Console.WriteLine("------------------------");
+
             return;
         } // end RunOffline_Copy function
     } //end class
