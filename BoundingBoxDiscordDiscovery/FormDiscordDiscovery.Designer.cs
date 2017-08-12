@@ -111,7 +111,7 @@
             this.btnRunOff.TabIndex = 5;
             this.btnRunOff.Text = "Run Offline";
             this.btnRunOff.UseVisualStyleBackColor = true;
-            this.btnRunOff.Click += new System.EventHandler(this.btnRun_Click);
+            this.btnRunOff.Click += new System.EventHandler(this.btnRunOffline_Click);
             // 
             // label4
             // 
@@ -288,7 +288,7 @@
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "FormDiscordDiscovery";
-            this.Text = "Bounding Box Discord Discovery - ver 1.1 - 7 Aug 2017";
+            this.Text = "Bounding Box Discord Discovery - ver 1.3 - 12 Aug 2017";
             this.ResumeLayout(false);
             this.PerformLayout();
 

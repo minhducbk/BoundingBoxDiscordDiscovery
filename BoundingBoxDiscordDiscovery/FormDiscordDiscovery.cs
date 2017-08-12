@@ -14,42 +14,44 @@ namespace BoundingBoxDiscordDiscovery
 {
     public partial class FormDiscordDiscovery : Form
     {
-        public RTree<int> rTree;
+        public RTree<int> this_RTree;
 
         // Store best_loc and best_dic from Run Offline:
-        public int best_so_far_loc;
-        public double best_so_far_dist;
-        public int best_so_far_loc_offline;
-        public double best_so_far_dist_offline;
+        public int this_best_so_far_loc;
+        public double this_best_so_far_dist;
+        public int this_best_so_far_loc_offline;
+        public double this_best_so_far_dist_offline;
 
-        public int N_length;
-        public int D;
-        public int R;
+        public int this_NLength;
+        public int this_D;
+        public int this_R;
 
-        public List<Offline.Rectangle> recList;
-        public List<int> id_itemList;
-        public int id_item;
+        public List<Offline.Rectangle> this_recList;
+        public List<int> this_id_itemList;
+        public int this_id_item;
 
-        public List<double> buffer;
+        public List<double> this_buffer;
+        
 
-        bool is_call_from_online;
+        bool this_is_called_from_online;
+        bool this_is_called_to_check;
 
 
         public FormDiscordDiscovery()
         {
-            this.is_call_from_online = false;
+            this.this_is_called_from_online = false;
+            this.this_is_called_to_check = false;
             InitializeComponent();
         }
 
-        private void btnRun_Click(object sender, EventArgs e)
+        private void btnRunOffline_Click(object sender, EventArgs e)
         {
             List<double> inputData;
 
             //get input data:
-            if (this.is_call_from_online == true)
-                inputData = this.buffer;     
-  
-            else
+            if (this.this_is_called_from_online == true || this.this_is_called_to_check)
+                inputData = this.this_buffer;     
+            else 
                 inputData = ReadFile.readFileIntoList(txtFileName.Text);
 
             var watch = System.Diagnostics.Stopwatch.StartNew();///calc execution time
@@ -88,8 +90,8 @@ namespace BoundingBoxDiscordDiscovery
                 return;
             }
 
-            this.recList = new List<Offline.Rectangle>();
-            this.id_itemList = new List<int>();
+            List<Offline.Rectangle>  recList = new List<Offline.Rectangle>();
+            List<int>  id_itemList = new List<int>();
 
             for (int i = 0; i <= inputData.Count - NLength; i++)
             {
@@ -176,28 +178,27 @@ namespace BoundingBoxDiscordDiscovery
             long elapsedMs = watch.ElapsedMilliseconds;
             this.txtExeTime.Text = elapsedMs.ToString();
 
-            if (this.is_call_from_online == true)
+            if (this.this_is_called_from_online == true)
             {
-                this.best_so_far_loc = best_so_far_loc;
-                this.best_so_far_dist = best_so_far_dist;
-                this.D = D;
-                this.R = R;
-                this.N_length = NLength;
-                this.rTree = rtree;
-                this.id_item = id_item;
-
-                this.is_call_from_online = false;
+                this.this_best_so_far_loc = best_so_far_loc;
+                this.this_best_so_far_dist = best_so_far_dist;
+                this.this_D = D;
+                this.this_R = R;
+                this.this_NLength = NLength;
+                this.this_RTree = rtree;
+                this.this_id_item = id_item;
+                this.this_recList = recList;
+                this.this_id_itemList = id_itemList;     
             }
             else
             {
                 //return result to other variables:
-                this.best_so_far_loc_offline = best_so_far_loc;
-                this.best_so_far_dist_offline = best_so_far_dist;
+                this.this_best_so_far_loc_offline = best_so_far_loc;
+                this.this_best_so_far_dist_offline = best_so_far_dist;
 
                 //print timeExe to the console:
                 Console.WriteLine("ExeTime_offline=" + elapsedMs.ToString());
             }
-           
 
             return;
         }
@@ -213,17 +214,20 @@ namespace BoundingBoxDiscordDiscovery
             List<double> streaming_data = ReadFile.readFileIntoList(streaming_filename);
         
             //create a new buffer. In this demo, the buffer is training_data (edit later):
-            this.buffer = new List<double>();
-            buffer.AddRange(training_data);
+            this.this_buffer = new List<double>();
+            this_buffer.AddRange(training_data);
 
             // Call 'Run Offline' for the first time, store results into variables ("this" object):
-            this.is_call_from_online = true;
-            btnRun_Click(sender, e);
+            this.this_is_called_from_online = true;
+            btnRunOffline_Click(sender, e);
+            this.this_is_called_from_online = false;
 
             //store the last subsequence of the buffer:
-            List<double> last_sub = buffer.GetRange(buffer.Count - this.N_length, this.N_length);
+            List<double> last_sub = this_buffer.GetRange(this_buffer.Count - this.this_NLength, this.this_NLength);
 
-            // keep streaming until we have no more data points
+            this.this_is_called_to_check = true; // Edit the inputData (assign it to the Buffer) to check with online
+            
+            // STREAMING: keep streaming until we have no more data points
             for (int index_stream = 0; index_stream < streaming_data.Count; index_stream++)
             {
                 var watch = System.Diagnostics.Stopwatch.StartNew();///calc execution time
@@ -236,26 +240,26 @@ namespace BoundingBoxDiscordDiscovery
                 List<double> new_sub = last_sub; // the same object
 
                 // Insert the new entry into the tree:
-                this.id_item++;
+                this.this_id_item++;
 
                 // Add the new rec to the tree:
-                Offline.Rectangle new_rec = new Offline.Rectangle(Utils.MathFunc.DTW_Min(new_sub, this.D, this.R).ToArray(), Utils.MathFunc.DTW_Max(new_sub, this.D, this.R).ToArray(), buffer.Count - this.N_length + 1 + index_stream);
-                this.rTree.Add(new_rec, id_item);
-                recList.Add(new_rec);
-                this.id_itemList.Add(id_item);
+                Offline.Rectangle new_rec = new Offline.Rectangle(Utils.MathFunc.DTW_Min(new_sub, this.this_D, this.this_R).ToArray(), Utils.MathFunc.DTW_Max(new_sub, this.this_D, this.this_R).ToArray(), this_buffer.Count - this.this_NLength + 1 + index_stream);
+                this.this_RTree.Add(new_rec, this_id_item);
+                this_recList.Add(new_rec);
+                this.this_id_itemList.Add(this_id_item);
 
                 //remove the oldest entry:
-                this.rTree.Delete(this.recList[index_stream], this.id_itemList[index_stream]);
+                this.this_RTree.Delete(this.this_recList[index_stream], this.this_id_itemList[index_stream]);
                 
                 // update buffer:
-                buffer.Add(new_data_point);
-                buffer.RemoveAt(0);
+                this_buffer.Add(new_data_point);
+                this_buffer.RemoveAt(0);
 
                 /* 'til now, we have already updated the tree.
                  from now on, almost just copy the offline code:
                  */
 
-                RunOffline_Copy(buffer, index_stream);
+                RunOffline_Copy(this_buffer, index_stream);
 
                 watch.Stop(); //stop timer
                 long elapsedMs = watch.ElapsedMilliseconds;
@@ -264,13 +268,15 @@ namespace BoundingBoxDiscordDiscovery
                 Console.WriteLine("ExeTime_Online=" + elapsedMs.ToString());
 
                 //call offline version to assure the results and compare the time executions:
-                btnRun_Click(sender, e);
+                btnRunOffline_Click(sender, e);
 
                 //check:
-                if (this.best_so_far_loc == this.best_so_far_loc_offline)
+                if (Math.Abs(this.this_best_so_far_dist - this.this_best_so_far_dist_offline) < 10e-4)
                     Console.WriteLine("checked, ok.");
                 else
                 {
+                    Console.WriteLine("this.best_so_far_dist = " + this.this_best_so_far_dist);
+                    Console.WriteLine("this.best_so_far_dist_Offline = " + this.this_best_so_far_dist_offline);
                     Console.WriteLine("The results are different. Stop Streaming !!!");
                     return;
                 }
@@ -278,6 +284,7 @@ namespace BoundingBoxDiscordDiscovery
                 Console.WriteLine("------------------------");
 
             } // end For loop (streaming)
+            this.this_is_called_to_check = false;
 
         } //end btnRunOnl_Click function
 
@@ -301,7 +308,7 @@ namespace BoundingBoxDiscordDiscovery
                 is_skip_at_p[i] = false;
 
 
-            Dictionary<int, Node<int>> nodeMap = this.rTree.getNodeMap();
+            Dictionary<int, Node<int>> nodeMap = this.this_RTree.getNodeMap();
             List<Node<int>> leafNodes = nodeMap.Values.Where(node => node.level == 1).OrderBy(node => node.entryCount).ToList();
 
             for (int i = 0; i < leafNodes.Count; i++)
@@ -341,14 +348,14 @@ namespace BoundingBoxDiscordDiscovery
                         //int q_edit = q - index_stream - 1;
                         int q_edit = q;
 
-                        if (Math.Abs(p - q_edit) < this.N_length)
+                        if (Math.Abs(p - q_edit) < this.this_NLength)
                         {
                             continue;// self-match => skip to the next one
                         }
                         else
                         {
                             //calculate the Distance between p and q
-                            dist = MathFunc.EuDistance(buffer.GetRange(p, this.N_length), buffer.GetRange(q_edit, this.N_length));
+                            dist = MathFunc.EuDistance(buffer.GetRange(p, this.this_NLength), buffer.GetRange(q_edit, this.this_NLength));
 
                             if (dist < best_so_far_dist)
                             {
@@ -382,13 +389,12 @@ namespace BoundingBoxDiscordDiscovery
             bestSoFarLocVal.Text = best_so_far_loc.ToString();
 
             //update the results:
-            this.best_so_far_loc = best_so_far_loc;
-            this.best_so_far_dist = best_so_far_dist;
+            this.this_best_so_far_loc = best_so_far_loc;
+            this.this_best_so_far_dist = best_so_far_dist;
 
             Console.WriteLine("index_stream=" + index_stream);
             Console.WriteLine("best_so_far_loc=" + best_so_far_loc);
             Console.WriteLine("best_so_far_dist=" + best_so_far_dist);
-            Console.WriteLine("------------------------");
 
             return;
         } // end RunOffline_Copy function
