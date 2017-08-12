@@ -222,8 +222,9 @@ namespace BoundingBoxDiscordDiscovery
             btnRunOffline_Click(sender, e);
             this.this_is_called_from_online = false;
 
-            //store the last subsequence of the buffer:
+            //store the first and last subsequence of the buffer:
             List<double> last_sub = this_buffer.GetRange(this_buffer.Count - this.this_NLength, this.this_NLength);
+            List<double> first_sub = this_buffer.GetRange(0, this.this_NLength);
 
             this.this_is_called_to_check = true; // Edit the inputData (assign it to the Buffer) to check with online
             
@@ -259,7 +260,12 @@ namespace BoundingBoxDiscordDiscovery
                  from now on, almost just copy the offline code:
                  */
 
-                RunOffline_Copy(this_buffer, index_stream);
+                //Method 1: just re-order the 2 loops:
+                RunOnline_Method1(this_buffer, index_stream);
+
+                //Method 2: Liu's algorithm:
+                //Note: Method_2 includes method_1 (case a)
+                RunOnline_LiuMethod(this_buffer, index_stream, first_sub);
 
                 watch.Stop(); //stop timer
                 long elapsedMs = watch.ElapsedMilliseconds;
@@ -289,11 +295,21 @@ namespace BoundingBoxDiscordDiscovery
         } //end btnRunOnl_Click function
 
 
-        public void RunOffline_Copy(List<double> buffer, int index_stream)
+        public void RunOnline_Method1(List<double> buffer, int index_stream, List<int> candidate_list_reduced = null)
         {
             /* This function is almost  the same as Offline version. We just edit some lines*/
 
-            List<int> candidateList = new List<int>();
+            List<int> candidateList;
+            if (candidate_list_reduced != null)
+            {
+                candidateList = candidate_list_reduced;
+            }
+            else
+            {
+                candidateList = new List<int>();
+            }
+            
+            
             List<int> beginIndexInner = new List<int>();
 
             double best_so_far_dist = 0;
@@ -323,8 +339,6 @@ namespace BoundingBoxDiscordDiscovery
                     beginIndexInner = beginIndexInner.Concat(Enumerable.Range(1, leafEntries.Count).Select(x => beginIndex)).ToList();
                 }
             }
-
-            List<int> candidateList_Distinct = candidateList.Distinct().ToList();
 
             for (int i = 0; i < candidateList.Count; i++)
             {
@@ -398,5 +412,157 @@ namespace BoundingBoxDiscordDiscovery
 
             return;
         } // end RunOffline_Copy function
+
+        public void RunOnline_LiuMethod(List<double> buffer, int index_stream, List<double> removed_sub)
+        {
+            /* Liu's algorithm */
+
+            //calc 'currDist' which is the distance of the discord at time t and the new subsquence at time (t+1):
+            double currDist = 0;
+            if (this_best_so_far_loc > 0) // make sure we can calc CurrDist when 'this_best_so_far_loc - 1' >= 0
+                currDist = Utils.MathFunc.EuDistance(buffer.GetRange(this_best_so_far_loc - 1, this_NLength), buffer.GetRange(buffer.Count - this_NLength, this_NLength));
+
+            //if the case (a): Modify the Rtree: call method1
+            if (currDist < this_best_so_far_dist || this_best_so_far_loc == 0)
+            {
+                Console.WriteLine("Running case (a)...");
+                RunOnline_Method1(buffer, index_stream);
+            }
+            else  //case (b): we can reduce the num of elements in the outer loop:
+            {
+                Console.WriteLine("Running case (b).........");
+                List<int> candidate_list_reduced = new List<int>(); //store outer loop
+
+                /* Find the candidate_list:*/
+                //The local discord at time t:
+                candidate_list_reduced.Add(this_best_so_far_loc - 1);
+
+                //The subsequence (m-n+1, n)(t+1):
+                candidate_list_reduced.Add(buffer.Count - this_NLength);
+
+                //The small match of subsequence (1, n)(t):
+                double small_match_dist = 0;
+                for (int j = this_NLength - 1; j <= buffer.Count - this_NLength - 1; j++)
+                {
+                    small_match_dist = Utils.MathFunc.EuDistance(buffer.GetRange(j, this_NLength), removed_sub);
+                    if (small_match_dist < this_best_so_far_dist)
+                    {
+                        if (this_best_so_far_loc != j)
+                            candidate_list_reduced.Add(j - 1);
+                    }
+                }
+
+                /*ok, 'til now we've already reduced at the outer loop, we do the rest by calling RunOnline_Method1:*/
+                RunOnline_Method1(buffer, index_stream, candidate_list_reduced);
+
+            }
+
+            List<int> candidateList = new List<int>();
+            List<int> beginIndexInner = new List<int>();
+
+            double best_so_far_dist = 0;
+            int best_so_far_loc = 0;
+
+            double nearest_neighbor_dist = 0;
+            double dist = 0;
+            bool break_to_outer_loop = false;
+
+            bool[] is_skip_at_p = new bool[buffer.Count];
+            for (int i = 0; i < buffer.Count; i++)
+                is_skip_at_p[i] = false;
+
+
+            Dictionary<int, Node<int>> nodeMap = this.this_RTree.getNodeMap();
+            List<Node<int>> leafNodes = nodeMap.Values.Where(node => node.level == 1).OrderBy(node => node.entryCount).ToList();
+
+            for (int i = 0; i < leafNodes.Count; i++)
+            {
+                List<Offline.Rectangle> leafEntries = leafNodes[i].entries.Where(mbr => mbr != null).Select(mbr => mbr).ToList();
+                if (leafEntries.Count > 0)
+                {
+                    int beginIndex = candidateList.Count;
+
+                    // we change a bit at the following line, we subtract mbr indice by "index_stream + 1":
+                    candidateList = candidateList.Concat(leafEntries.Select(mbr => mbr.getIndexSubSeq(index_stream + 1))).ToList();
+                    beginIndexInner = beginIndexInner.Concat(Enumerable.Range(1, leafEntries.Count).Select(x => beginIndex)).ToList();
+                }
+            }
+
+            List<int> candidateList_Distinct = candidateList.Distinct().ToList();
+
+            for (int i = 0; i < candidateList.Count; i++)
+            {
+                int p = candidateList[i];
+                if (is_skip_at_p[p])
+                {
+                    //p was visited at inner loop before
+                    continue;
+                }
+                else
+                {
+                    nearest_neighbor_dist = Constant.INFINITE;
+                    List<int> tailCandidate = candidateList.GetRange(beginIndexInner[i], candidateList.Count - beginIndexInner[i]);
+                    List<int> headCandidate = candidateList.GetRange(0, beginIndexInner[i]);
+                    List<int> innerList = tailCandidate.Concat(headCandidate).ToList();
+                    //Console.WriteLine("innerList.Min()=" + innerList.Min());
+
+                    foreach (int q in innerList)// inner loop
+                    {
+                        //update q, because q will be greater when we're streaming:
+                        //int q_edit = q - index_stream - 1;
+                        int q_edit = q;
+
+                        if (Math.Abs(p - q_edit) < this.this_NLength)
+                        {
+                            continue;// self-match => skip to the next one
+                        }
+                        else
+                        {
+                            //calculate the Distance between p and q
+                            dist = MathFunc.EuDistance(buffer.GetRange(p, this.this_NLength), buffer.GetRange(q_edit, this.this_NLength));
+
+                            if (dist < best_so_far_dist)
+                            {
+                                //skip the element q at oute_loop, 'cuz if (p,q) is not a solution, so does (q,p).
+                                is_skip_at_p[q_edit] = true;
+
+                                break_to_outer_loop = true; //break, to the next loop at outer_loop
+                                break;// break at inner_loop first
+                            }
+
+                            if (dist < nearest_neighbor_dist)
+                            {
+                                nearest_neighbor_dist = dist;
+                            }
+                        }
+                    }
+                    if (break_to_outer_loop)
+                    {
+                        break_to_outer_loop = false;//reset
+                        continue;//go to the next p in outer loop
+                    }
+
+                    if (nearest_neighbor_dist > best_so_far_dist)
+                    {
+                        best_so_far_dist = nearest_neighbor_dist;
+                        best_so_far_loc = p;
+                    }
+                }
+            }
+            bestSoFarDisVal.Text = best_so_far_dist.ToString();
+            bestSoFarLocVal.Text = best_so_far_loc.ToString();
+
+            //update the results:
+            this.this_best_so_far_loc = best_so_far_loc;
+            this.this_best_so_far_dist = best_so_far_dist;
+
+            Console.WriteLine("index_stream=" + index_stream);
+            Console.WriteLine("best_so_far_loc=" + best_so_far_loc);
+            Console.WriteLine("best_so_far_dist=" + best_so_far_dist);
+
+            return;
+
+        } // End RunOnline_LiuMethod
+
     } //end class
 } // end file
