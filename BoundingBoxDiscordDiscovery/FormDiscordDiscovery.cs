@@ -33,13 +33,13 @@ namespace BoundingBoxDiscordDiscovery
         public List<double> this_buffer;
         
 
-        bool this_is_called_from_online;
+        bool this_first_call_from_online;
         bool this_is_called_to_check;
 
 
         public FormDiscordDiscovery()
         {
-            this.this_is_called_from_online = false;
+            this.this_first_call_from_online = false;
             this.this_is_called_to_check = false;
             InitializeComponent();
         }
@@ -49,7 +49,7 @@ namespace BoundingBoxDiscordDiscovery
             List<double> inputData;
 
             //get input data:
-            if (this.this_is_called_from_online == true || this.this_is_called_to_check)
+            if (this.this_first_call_from_online == true || this.this_is_called_to_check)
                 inputData = this.this_buffer;     
             else 
                 inputData = ReadFile.readFileIntoList(txtFileName.Text);
@@ -178,7 +178,7 @@ namespace BoundingBoxDiscordDiscovery
             long elapsedMs = watch.ElapsedMilliseconds;
             this.txtExeTime.Text = elapsedMs.ToString();
 
-            if (this.this_is_called_from_online == true)
+            if (this.this_first_call_from_online == true)
             {
                 this.this_best_so_far_loc = best_so_far_loc;
                 this.this_best_so_far_dist = best_so_far_dist;
@@ -218,9 +218,9 @@ namespace BoundingBoxDiscordDiscovery
             this_buffer.AddRange(training_data);
 
             // Call 'Run Offline' for the first time, store results into variables ("this" object):
-            this.this_is_called_from_online = true;
+            this.this_first_call_from_online = true;
             btnRunOffline_Click(sender, e);
-            this.this_is_called_from_online = false;
+            this.this_first_call_from_online = false;
 
             //store the first and last subsequence of the buffer:
             List<double> last_sub = this_buffer.GetRange(this_buffer.Count - this.this_NLength, this.this_NLength);
@@ -261,7 +261,7 @@ namespace BoundingBoxDiscordDiscovery
                  */
 
                 //Method 1: just re-order the 2 loops:
-                RunOnline_Method1(this_buffer, index_stream);
+                //RunOnline_Method1(this_buffer, index_stream);
 
                 //Method 2: Liu's algorithm:
                 //Note: Method_2 includes method_1 (case a)
@@ -277,7 +277,7 @@ namespace BoundingBoxDiscordDiscovery
                 btnRunOffline_Click(sender, e);
 
                 //check:
-                if (Math.Abs(this.this_best_so_far_dist - this.this_best_so_far_dist_offline) < 10e-4)
+                if (Math.Abs(this.this_best_so_far_dist - this.this_best_so_far_dist_offline) < 10e-7)
                     Console.WriteLine("checked, ok.");
                 else
                 {
@@ -294,24 +294,41 @@ namespace BoundingBoxDiscordDiscovery
 
         } //end btnRunOnl_Click function
 
-
         public void RunOnline_Method1(List<double> buffer, int index_stream, List<int> candidate_list_reduced = null)
         {
             /* This function is almost  the same as Offline version. We just edit some lines*/
 
             List<int> candidateList;
-            if (candidate_list_reduced != null)
+            List<int> beginIndexInner = new List<int>();
+            
+            bool inner_loop_follows_reducedCandidates = false;
+
+            Dictionary<int, Node<int>> nodeMap = this.this_RTree.getNodeMap();
+            List<Node<int>> leafNodes = nodeMap.Values.Where(node => node.level == 1).OrderBy(node => node.entryCount).ToList();
+
+            if (candidate_list_reduced != null) // the outer loop is calculated by Liu's algorithm
             {
                 candidateList = candidate_list_reduced;
+                inner_loop_follows_reducedCandidates = true;
             }
-            else
+            else // Duc Lun's version:
             {
                 candidateList = new List<int>();
+
+                for (int i = 0; i < leafNodes.Count; i++)
+                {
+                    List<Offline.Rectangle> leafEntries = leafNodes[i].entries.Where(mbr => mbr != null).Select(mbr => mbr).ToList();
+                    if (leafEntries.Count > 0)
+                    {
+                        int beginIndex = candidateList.Count;
+
+                        // we change a bit at the following line, we subtract mbr indice by "index_stream + 1":
+                        candidateList = candidateList.Concat(leafEntries.Select(mbr => mbr.getIndexSubSeq(index_stream + 1))).ToList();
+                        beginIndexInner = beginIndexInner.Concat(Enumerable.Range(1, leafEntries.Count).Select(x => beginIndex)).ToList();
+                    }
+                }
             }
             
-            
-            List<int> beginIndexInner = new List<int>();
-
             double best_so_far_dist = 0;
             int best_so_far_loc = 0;
 
@@ -322,23 +339,6 @@ namespace BoundingBoxDiscordDiscovery
             bool[] is_skip_at_p = new bool[buffer.Count];
             for (int i = 0; i < buffer.Count; i++)
                 is_skip_at_p[i] = false;
-
-
-            Dictionary<int, Node<int>> nodeMap = this.this_RTree.getNodeMap();
-            List<Node<int>> leafNodes = nodeMap.Values.Where(node => node.level == 1).OrderBy(node => node.entryCount).ToList();
-
-            for (int i = 0; i < leafNodes.Count; i++)
-            {
-                List<Offline.Rectangle> leafEntries = leafNodes[i].entries.Where(mbr => mbr != null).Select(mbr => mbr).ToList();
-                if (leafEntries.Count > 0)
-                {
-                    int beginIndex = candidateList.Count;
-
-                    // we change a bit at the following line, we subtract mbr indice by "index_stream + 1":
-                    candidateList = candidateList.Concat(leafEntries.Select(mbr => mbr.getIndexSubSeq(index_stream+1))).ToList();
-                    beginIndexInner = beginIndexInner.Concat(Enumerable.Range(1, leafEntries.Count).Select(x => beginIndex)).ToList();
-                }
-            }
 
             for (int i = 0; i < candidateList.Count; i++)
             {
@@ -351,11 +351,33 @@ namespace BoundingBoxDiscordDiscovery
                 else
                 {
                     nearest_neighbor_dist = Constant.INFINITE;
-                    List<int> tailCandidate = candidateList.GetRange(beginIndexInner[i], candidateList.Count - beginIndexInner[i]);
-                    List<int> headCandidate = candidateList.GetRange(0, beginIndexInner[i]);
-                    List<int> innerList = tailCandidate.Concat(headCandidate).ToList();
-                    //Console.WriteLine("innerList.Min()=" + innerList.Min());
+                    List<int> innerList;
 
+                    if (inner_loop_follows_reducedCandidates == false) // Duc Lun's method
+                    {
+                        List<int> tailCandidate = candidateList.GetRange(beginIndexInner[i], candidateList.Count - beginIndexInner[i]);
+                        List<int> headCandidate = candidateList.GetRange(0, beginIndexInner[i]);
+                        innerList = tailCandidate.Concat(headCandidate).ToList();
+                    }
+                    else 
+                    {
+                        innerList = new List<int>();
+                        for (int num = 0; num < leafNodes.Count; num++)
+                        {
+                            List<int> all_Entry_IDs_from_a_node = leafNodes[num].entries.Where(mbr => (mbr != null) && (mbr.getIndexSubSeq(index_stream + 1) != p)).Select(mbr => mbr.getIndexSubSeq(index_stream + 1)).ToList();
+
+                            if (all_Entry_IDs_from_a_node.Count == 0) // if p in the outer loop is NOT in this leaf:
+                            {
+                                innerList.AddRange(all_Entry_IDs_from_a_node);
+                            }
+                            else // If p is IN this leaf: We add all entry ids in the leaf to the head of the innerList 
+                            {
+                                innerList.InsertRange(0, all_Entry_IDs_from_a_node);
+                                // note: In this case, all_Entry_IDs_from_a_node doesnt include 'p' id.
+                            }
+                        }
+                    }
+                   
                     foreach (int q in innerList)// inner loop
                     {
                         //update q, because q will be greater when we're streaming:
