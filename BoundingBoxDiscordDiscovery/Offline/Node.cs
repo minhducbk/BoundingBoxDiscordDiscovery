@@ -23,6 +23,19 @@ namespace BoundingBoxDiscordDiscovery.Offline
             ids = new int[maxNodeEntries];
         }
 
+        public bool checkIDCandidate(int subtract_by, int id_candidate)
+        {
+            foreach (Rectangle r in this.entries)
+            {
+                if (r != null && r.getIndexSubSeq(subtract_by) == id_candidate)
+                {
+                    Console.WriteLine("id_candidate:" + id_candidate);
+                    Console.WriteLine("id_node:" + nodeId);
+                    return true;
+                }
+            }
+            return false;
+        }
         internal void addEntry(Rectangle r, int id)
         {
             ids[entryCount] = id;

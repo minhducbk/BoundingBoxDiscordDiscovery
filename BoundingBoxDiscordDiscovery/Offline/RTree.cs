@@ -143,6 +143,19 @@ namespace BoundingBoxDiscordDiscovery.Offline
         }
 
         /// <summary>
+        /// Get a copy of Dictionary Node of RTree - catbuilts
+        /// </summary>
+        public Dictionary<int, Node<T>> getNodeMapCopy()
+        {
+            
+            Dictionary<int, Node<T>> copy = new Dictionary<int, Node<T>>(nodeMap);
+            return copy;
+        }
+
+
+
+
+        /// <summary>
         /// Adds an item to the spatial index
         /// </summary>
         public void Add(Rectangle r, T item)

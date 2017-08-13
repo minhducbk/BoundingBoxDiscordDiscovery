@@ -288,7 +288,7 @@
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "FormDiscordDiscovery";
-            this.Text = "Bounding Box Discord Discovery - ver 1.5 - 13 Aug 2017";
+            this.Text = "Bounding Box Discord Discovery - ver 1.6 - 13 Aug 2017";
             this.ResumeLayout(false);
             this.PerformLayout();
 
