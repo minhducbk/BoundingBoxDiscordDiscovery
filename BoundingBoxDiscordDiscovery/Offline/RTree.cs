@@ -13,7 +13,7 @@ namespace BoundingBoxDiscordDiscovery.Offline
         private ILog log = null;
         private ILog deleteLog = null;
 
-        private const string version = "1.0b2p1";
+        private const string version = "1.1";
 
         // parameters of the tree
         private const int DEFAULT_MAX_NODE_ENTRIES = 10;
@@ -141,6 +141,19 @@ namespace BoundingBoxDiscordDiscovery.Offline
         {
             return nodeMap;
         }
+
+        /// <summary>
+        /// Get a copy of Dictionary Node of RTree - catbuilts
+        /// </summary>
+        public Dictionary<int, Node<T>> getNodeMapCopy()
+        {
+            
+            Dictionary<int, Node<T>> copy = new Dictionary<int, Node<T>>(nodeMap);
+            return copy;
+        }
+
+
+
 
         /// <summary>
         /// Adds an item to the spatial index
@@ -464,7 +477,6 @@ namespace BoundingBoxDiscordDiscovery.Offline
             return retval;
         }
 
-
         private void nearest(SubSequence p, intproc v, double furthestDistance)
         {
             Node<T> rootNode = getNode(rootNodeId);
@@ -488,7 +500,6 @@ namespace BoundingBoxDiscordDiscovery.Offline
             });
             return retval;
         }
-
 
         private void intersects(Rectangle r, intproc v)
         {
