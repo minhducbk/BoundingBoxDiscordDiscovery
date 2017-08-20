@@ -72,6 +72,7 @@ namespace BoundingBoxDiscordDiscovery
 
             List<int> candidateList = new List<int>();
             List<int> beginIndexInner = new List<int>();
+            List<int> indexOfLeafMBRS = new List<int>();
 
             double best_so_far_dist = 0;
             int best_so_far_loc = 0;
@@ -97,7 +98,7 @@ namespace BoundingBoxDiscordDiscovery
             {
                 List<double> subseq = inputData.GetRange(i, NLength);
                 id_item++;
-                Offline.Rectangle new_rec = new Offline.Rectangle(Utils.MathFunc.DTW_Min(subseq, D, R).ToArray(), Utils.MathFunc.DTW_Max(subseq, D, R).ToArray(), i);
+                Offline.Rectangle new_rec = new Offline.Rectangle(Utils.MathFunc.PAA_Lower(subseq, D, R).ToArray(), Utils.MathFunc.PAA_Upper(subseq, D, R).ToArray(), i);
                 rtree.Add(new_rec, id_item);
                 recList.Add(new_rec);
                 id_itemList.Add(id_item);
@@ -106,6 +107,7 @@ namespace BoundingBoxDiscordDiscovery
 
             Dictionary<int, Node<int>> nodeMap = rtree.getNodeMap();
             List<Node<int>> leafNodes = nodeMap.Values.Where(node => node.level == 1).OrderBy(node => node.entryCount).ToList();
+            List<Offline.Rectangle> leafMBRs = leafNodes.Select(node => node.mbr).ToList(); // List rectangle of leaf nodes in order of list leafNodes
 
             for (int i = 0; i < leafNodes.Count; i++)
             {
@@ -115,12 +117,16 @@ namespace BoundingBoxDiscordDiscovery
                     int beginIndex = candidateList.Count;
                     candidateList = candidateList.Concat(leafEntries.Select(mbr => mbr.getIndexSubSeq())).ToList();
                     beginIndexInner = beginIndexInner.Concat(Enumerable.Range(1, leafEntries.Count).Select(x => beginIndex)).ToList();
+                    indexOfLeafMBRS = indexOfLeafMBRS.Concat(Enumerable.Range(1, leafEntries.Count).Select(x => i)).ToList();
                 }
             }
 
             for (int i = 0; i < candidateList.Count; i++)
             {
                 int p = candidateList[i];
+                List<double> subseq_p = inputData.GetRange(p, NLength);
+                // rectangle of subseq in p postion
+                Offline.Rectangle p_rectangle = new Offline.Rectangle(Utils.MathFunc.PAA_Lower(subseq_p, D, R).ToArray(), Utils.MathFunc.PAA_Upper(subseq_p, D, R).ToArray(), p);
                 if (is_skip_at_p[p])
                 {
                     //p was visited at inner loop before
@@ -133,10 +139,19 @@ namespace BoundingBoxDiscordDiscovery
                     List<int> headCandidate = candidateList.GetRange(0, beginIndexInner[i]);
                     List<int> innerList = tailCandidate.Concat(headCandidate).ToList();
 
-                    foreach (int q in innerList)// inner loop
+                    List<int> tailIndexMBR = indexOfLeafMBRS.GetRange(beginIndexInner[i], candidateList.Count - beginIndexInner[i]);
+                    List<int> headIndexMBR = indexOfLeafMBRS.GetRange(0, beginIndexInner[i]);
+                    List<int> indexMBRInnner = tailIndexMBR.Concat(headIndexMBR).ToList();
+                    List<bool> eliminatedMBR = new List<bool>().Concat(Enumerable.Range(1, leafMBRs.Count).Select(x => false)).ToList();
+                    for (int j = 0; j < innerList.Count; j++)// inner loop
                     {
-                        if (Math.Abs(p - q) < NLength)
+                        int q = innerList[j];
+                        if ((Math.Abs(p - q) < NLength) || eliminatedMBR[indexMBRInnner[j]] || (MathFunc.MINDIST(p_rectangle, leafMBRs[indexMBRInnner[j]]) >= nearest_neighbor_dist))
                         {
+                            if (!eliminatedMBR[indexMBRInnner[j]] && (MathFunc.MINDIST(p_rectangle, leafMBRs[indexMBRInnner[j]]) >= nearest_neighbor_dist))
+                            {
+                                eliminatedMBR[indexMBRInnner[j]] = true;
+                            }
                             continue;// self-match => skip to the next one
                         }
                         else
@@ -244,7 +259,7 @@ namespace BoundingBoxDiscordDiscovery
                 this.this_id_item++;
 
                 // Add the new rec to the tree:
-                Offline.Rectangle new_rec = new Offline.Rectangle(Utils.MathFunc.DTW_Min(new_sub, this.this_D, this.this_R).ToArray(), Utils.MathFunc.DTW_Max(new_sub, this.this_D, this.this_R).ToArray(), this_buffer.Count - this.this_NLength + 1 + index_stream);
+                Offline.Rectangle new_rec = new Offline.Rectangle(Utils.MathFunc.PAA_Lower(new_sub, this.this_D, this.this_R).ToArray(), Utils.MathFunc.PAA_Upper(new_sub, this.this_D, this.this_R).ToArray(), this_buffer.Count - this.this_NLength + 1 + index_stream);
                 this.this_RTree.Add(new_rec, this_id_item);
                 this_recList.Add(new_rec);
                 this.this_id_itemList.Add(this_id_item);

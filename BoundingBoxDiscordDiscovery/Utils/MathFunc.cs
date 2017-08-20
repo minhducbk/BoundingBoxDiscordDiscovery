@@ -137,7 +137,7 @@ namespace BoundingBoxDiscordDiscovery.Utils
             return c_w;
         }
 
-        static public List<double> DTW_Max(List<double> sequence, int W_LENGTH, int r)
+        static public List<double> PAA_Upper(List<double> sequence, int W_LENGTH, int r)
         {
             int N_LENGTH = sequence.Count;
             List<double> c_w = new List<double>();
@@ -176,7 +176,7 @@ namespace BoundingBoxDiscordDiscovery.Utils
             return c_w;
         }
 
-        static public List<double> DTW_Min(List<double> sequence, int W_LENGTH, int r)
+        static public List<double> PAA_Lower(List<double> sequence, int W_LENGTH, int r)
         {
             int N_LENGTH = sequence.Count;
             List<double> c_w = new List<double>();
@@ -215,7 +215,7 @@ namespace BoundingBoxDiscordDiscovery.Utils
             return c_w;
         }
 
-        static double LB_PAA(List<double> C, Offline.Rectangle Q)
+        static public double LB_PAA(List<double> C, Offline.Rectangle Q)
         {
             double distance = 0;
             List<double> CMacron = PAA(C, Q.DIMENSIONS);
@@ -230,7 +230,7 @@ namespace BoundingBoxDiscordDiscovery.Utils
             return Math.Sqrt(distance);
         }
 
-        static double MINDIST(Offline.Rectangle Q, Offline.Rectangle R)
+        static public double MINDIST(Offline.Rectangle Q, Offline.Rectangle R)
         {
             double distance = 0;
             for (int i = 0; i < Q.DIMENSIONS; i++)
