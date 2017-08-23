@@ -129,9 +129,9 @@ namespace BoundingBoxDiscordDiscovery
                 else
                 {
                     nearest_neighbor_dist = Constant.INFINITE;
-                    List<int> tailCandidate = candidateList.GetRange(beginIndexInner[i], candidateList.Count - beginIndexInner[i]);
+                    List<int> innerList = candidateList.GetRange(beginIndexInner[i], candidateList.Count - beginIndexInner[i]);
                     List<int> headCandidate = candidateList.GetRange(0, beginIndexInner[i]);
-                    List<int> innerList = tailCandidate.Concat(headCandidate).ToList();
+                    innerList.AddRange(headCandidate);
 
                     foreach (int q in innerList)// inner loop
                     {
