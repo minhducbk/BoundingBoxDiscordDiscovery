@@ -116,11 +116,10 @@ namespace BoundingBoxDiscordDiscovery
                 {
                     int beginIndex = candidateList.Count;
                     candidateList = candidateList.Concat(leafEntries.Select(mbr => mbr.getIndexSubSeq())).ToList();
-                    beginIndexInner = beginIndexInner.Concat(Enumerable.Range(1, leafEntries.Count).Select(x => beginIndex)).ToList();
-                    indexOfLeafMBRS = indexOfLeafMBRS.Concat(Enumerable.Range(1, leafEntries.Count).Select(x => i)).ToList();
+                    beginIndexInner = beginIndexInner.Concat(Enumerable.Repeat(beginIndex, leafEntries.Count)).ToList();
+                    indexOfLeafMBRS = indexOfLeafMBRS.Concat(Enumerable.Repeat(i, leafEntries.Count)).ToList();
                 }
             }
-
             for (int i = 0; i < candidateList.Count; i++)
             {
                 int p = candidateList[i];
@@ -135,23 +134,27 @@ namespace BoundingBoxDiscordDiscovery
                 else
                 {
                     nearest_neighbor_dist = Constant.INFINITE;
-                    List<int> tailCandidate = candidateList.GetRange(beginIndexInner[i], candidateList.Count - beginIndexInner[i]);
+                    
+                    List<int> innerList = candidateList.GetRange(beginIndexInner[i], candidateList.Count - beginIndexInner[i]);
                     List<int> headCandidate = candidateList.GetRange(0, beginIndexInner[i]);
-                    List<int> innerList = tailCandidate.Concat(headCandidate).ToList();
-
-                    List<int> tailIndexMBR = indexOfLeafMBRS.GetRange(beginIndexInner[i], candidateList.Count - beginIndexInner[i]);
+                    innerList.AddRange(headCandidate);
+                    List<int> indexMBRInnner = indexOfLeafMBRS.GetRange(beginIndexInner[i], candidateList.Count - beginIndexInner[i]);
                     List<int> headIndexMBR = indexOfLeafMBRS.GetRange(0, beginIndexInner[i]);
-                    List<int> indexMBRInnner = tailIndexMBR.Concat(headIndexMBR).ToList();
-                    List<bool> eliminatedMBR = new List<bool>().Concat(Enumerable.Range(1, leafMBRs.Count).Select(x => false)).ToList();
+                    indexMBRInnner.AddRange(headIndexMBR);
+                    List<bool> eliminatedMBR = Enumerable.Repeat(false, leafMBRs.Count).ToList();
+                    List<bool> calculatedMBR = Enumerable.Repeat(false, leafMBRs.Count).ToList();
+                    
                     for (int j = 0; j < innerList.Count; j++)// inner loop
                     {
                         int q = innerList[j];
-                        if ((Math.Abs(p - q) < NLength) || eliminatedMBR[indexMBRInnner[j]] || (MathFunc.MINDIST(p_rectangle, leafMBRs[indexMBRInnner[j]]) >= nearest_neighbor_dist))
+                        if ((Math.Abs(p - q) < NLength) || eliminatedMBR[indexMBRInnner[j]] || (!calculatedMBR[indexMBRInnner[j]] && MathFunc.MINDIST(p_rectangle, leafMBRs[indexMBRInnner[j]]) >= nearest_neighbor_dist))
                         {
                             if (!eliminatedMBR[indexMBRInnner[j]] && (MathFunc.MINDIST(p_rectangle, leafMBRs[indexMBRInnner[j]]) >= nearest_neighbor_dist))
                             {
                                 eliminatedMBR[indexMBRInnner[j]] = true;
                             }
+                            else
+                                calculatedMBR[indexMBRInnner[j]] = true;
                             continue;// self-match => skip to the next one
                         }
                         else
@@ -187,6 +190,7 @@ namespace BoundingBoxDiscordDiscovery
                     }
                 }
             }
+
             bestSoFarDisVal.Text = best_so_far_dist.ToString();
             bestSoFarLocVal.Text = best_so_far_loc.ToString();
             watch.Stop(); //stop timer

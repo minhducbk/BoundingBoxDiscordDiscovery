@@ -166,7 +166,7 @@ namespace BoundingBoxDiscordDiscovery.Utils
                     from_index = (N_LENGTH / W_LENGTH) * w_start;
                     to_index = (N_LENGTH / W_LENGTH) * (w_start + 1) - 1;
 
-                    c_w[w_start] = -Constant.INFINITE;
+                    c_w.Add(-Constant.INFINITE);
                     for (int j = from_index; j <= to_index; j++)
                     {
                         c_w[w_start] = Math.Max(c_w[w_start], sequence[j]);
@@ -205,7 +205,7 @@ namespace BoundingBoxDiscordDiscovery.Utils
                     from_index = (N_LENGTH / W_LENGTH) * w_start;
                     to_index = (N_LENGTH / W_LENGTH) * (w_start + 1) - 1;
 
-                    c_w[w_start] = Constant.INFINITE;
+                    c_w.Add(Constant.INFINITE);
                     for (int j = from_index; j <= to_index; j++)
                     {
                         c_w[w_start] = Math.Min(c_w[w_start], sequence[j]);
@@ -236,10 +236,10 @@ namespace BoundingBoxDiscordDiscovery.Utils
             for (int i = 0; i < Q.DIMENSIONS; i++)
             {
                 if (R.min[i] > Q.max[i])
-                    distance += Math.Pow(R.min[i] - Q.max[i], 2);
+                    distance += (R.min[i] - Q.max[i]) * (R.min[i] - Q.max[i]);
                 else
                     if ((R.max[i] < Q.min[i]))
-                    distance += Math.Pow(R.max[i] - Q.min[i], 2);
+                    distance += (R.max[i] - Q.min[i]) * (R.max[i] - Q.min[i]);
             }
             return Math.Sqrt(distance);
         }
