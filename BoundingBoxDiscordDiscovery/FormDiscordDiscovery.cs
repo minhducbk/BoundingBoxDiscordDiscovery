@@ -115,9 +115,9 @@ namespace BoundingBoxDiscordDiscovery
                 if (leafEntries.Count > 0)
                 {
                     int beginIndex = candidateList.Count;
-                    candidateList = candidateList.Concat(leafEntries.Select(mbr => mbr.getIndexSubSeq())).ToList();
-                    beginIndexInner = beginIndexInner.Concat(Enumerable.Repeat(beginIndex, leafEntries.Count)).ToList();
-                    indexOfLeafMBRS = indexOfLeafMBRS.Concat(Enumerable.Repeat(i, leafEntries.Count)).ToList();
+                    candidateList.AddRange(leafEntries.Select(mbr => mbr.getIndexSubSeq()));
+                    beginIndexInner.AddRange(Enumerable.Repeat(beginIndex, leafEntries.Count));
+                    indexOfLeafMBRS.AddRange(Enumerable.Repeat(i, leafEntries.Count));
                 }
             }
             for (int i = 0; i < candidateList.Count; i++)
@@ -354,8 +354,8 @@ namespace BoundingBoxDiscordDiscovery
                         int beginIndex = candidateList.Count;
 
                         // we change a bit at the following line, we subtract mbr indice by "index_stream + 1":
-                        candidateList = candidateList.Concat(leafEntries.Select(mbr => mbr.getIndexSubSeq(index_stream + 1))).ToList();
-                        beginIndexInner = beginIndexInner.Concat(Enumerable.Range(1, leafEntries.Count).Select(x => beginIndex)).ToList();
+                        candidateList.AddRange(leafEntries.Select(mbr => mbr.getIndexSubSeq(index_stream + 1)));
+                        beginIndexInner.AddRange(Enumerable.Range(1, leafEntries.Count).Select(x => beginIndex));
                     }
                 }
             }
@@ -386,9 +386,9 @@ namespace BoundingBoxDiscordDiscovery
 
                     if (inner_loop_follows_reducedCandidates == false) // Duc Lun's method
                     {
-                        List<int> tailCandidate = candidateList.GetRange(beginIndexInner[i], candidateList.Count - beginIndexInner[i]);
+                        innerList = candidateList.GetRange(beginIndexInner[i], candidateList.Count - beginIndexInner[i]);
                         List<int> headCandidate = candidateList.GetRange(0, beginIndexInner[i]);
-                        innerList = tailCandidate.Concat(headCandidate).ToList();
+                        innerList.AddRange(headCandidate);
                     }
                     else 
                     {
@@ -483,8 +483,8 @@ namespace BoundingBoxDiscordDiscovery
                 {
                     int beginIndex = candidateList.Count;
                     // we change a bit at the following line, we subtract mbr indice by "index_stream + 1":
-                    candidateList = candidateList.Concat(leafEntries.Select(mbr => mbr.getIndexSubSeq(index_stream + 1))).ToList();
-                    beginIndexInner = beginIndexInner.Concat(Enumerable.Range(1, leafEntries.Count).Select(x => beginIndex)).ToList();
+                    candidateList.AddRange(leafEntries.Select(mbr => mbr.getIndexSubSeq(index_stream + 1)));
+                    beginIndexInner.AddRange(Enumerable.Range(1, leafEntries.Count).Select(x => beginIndex));
                 }
             } // end for
 
@@ -546,9 +546,9 @@ namespace BoundingBoxDiscordDiscovery
                     nearest_neighbor_dist = Constant.INFINITE;
                     List<int> innerList;
 
-                    List<int> tailCandidate = candidateList.GetRange(beginIndexInner[i], candidateList.Count - beginIndexInner[i]);
+                    innerList = candidateList.GetRange(beginIndexInner[i], candidateList.Count - beginIndexInner[i]);
                     List<int> headCandidate = candidateList.GetRange(0, beginIndexInner[i]);
-                    innerList = tailCandidate.Concat(headCandidate).ToList();
+                    innerList.AddRange(headCandidate);
 
                     foreach (int q in innerList)// inner loop
                     {
