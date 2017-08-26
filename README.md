@@ -1,9 +1,12 @@
 # BoundingBoxDiscordDiscovery
 BoundingBoxDiscordDiscovery for the thesis
 
-Ver 1.7 - 26 Aug - minDistBranch
+Ver 1.7 - 26 Aug - Master branch
 
 
-todo:
-	Use minDist to improve the algorithm (done !)
+ToDo:
+- Merge code
+	+ new thread when online
+	+ new lables, texts (parameters)
+	+ ...
 
