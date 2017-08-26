@@ -48,6 +48,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.txtExeTime = new System.Windows.Forms.Label();
             this.btnRunOnl = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -68,7 +69,7 @@
             this.txtFileName.Name = "txtFileName";
             this.txtFileName.Size = new System.Drawing.Size(276, 31);
             this.txtFileName.TabIndex = 1;
-            this.txtFileName.Text = "ECG_5000_train.txt";
+            this.txtFileName.Text = "ECG.txt";
             // 
             // label2
             // 
@@ -103,13 +104,13 @@
             // 
             // btnRunOff
             // 
-            this.btnRunOff.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRunOff.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRunOff.Location = new System.Drawing.Point(664, 62);
             this.btnRunOff.Margin = new System.Windows.Forms.Padding(6);
             this.btnRunOff.Name = "btnRunOff";
-            this.btnRunOff.Size = new System.Drawing.Size(222, 74);
+            this.btnRunOff.Size = new System.Drawing.Size(221, 112);
             this.btnRunOff.TabIndex = 5;
-            this.btnRunOff.Text = "Run Offline";
+            this.btnRunOff.Text = "Offline + MinDist";
             this.btnRunOff.UseVisualStyleBackColor = true;
             this.btnRunOff.Click += new System.EventHandler(this.btnRunOffline_Click);
             // 
@@ -252,20 +253,32 @@
             // 
             // btnRunOnl
             // 
-            this.btnRunOnl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRunOnl.Location = new System.Drawing.Point(664, 195);
+            this.btnRunOnl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRunOnl.Location = new System.Drawing.Point(663, 338);
             this.btnRunOnl.Name = "btnRunOnl";
-            this.btnRunOnl.Size = new System.Drawing.Size(222, 76);
+            this.btnRunOnl.Size = new System.Drawing.Size(222, 99);
             this.btnRunOnl.TabIndex = 19;
             this.btnRunOnl.Text = "Run Online";
             this.btnRunOnl.UseVisualStyleBackColor = true;
             this.btnRunOnl.Click += new System.EventHandler(this.btnRunOnl_Click);
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(663, 206);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(221, 113);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "Offline Origin";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.btn_OriginalOffline_Click);
             // 
             // FormDiscordDiscovery
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(942, 604);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnRunOnl);
             this.Controls.Add(this.txtExeTime);
             this.Controls.Add(this.label9);
@@ -288,7 +301,7 @@
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "FormDiscordDiscovery";
-            this.Text = "Bounding Box Discord Discovery - ver 1.6 - 13 Aug 2017";
+            this.Text = "Bounding Box Discord Discovery - ver 1.7 - 26 Aug 2017";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -316,6 +329,7 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label txtExeTime;
         private System.Windows.Forms.Button btnRunOnl;
+        private System.Windows.Forms.Button button1;
     }
 }
 

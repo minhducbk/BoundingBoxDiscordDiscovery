@@ -11,6 +11,7 @@ namespace BoundingBoxDiscordDiscovery.Utils
     {
         static public List<double> readFileIntoList(string file_name, int num_line_to_skip = 1)
         {
+
             string path = Path.Combine(Environment.CurrentDirectory, @"Data\", file_name);
             List<double> data = new List<double>();
 

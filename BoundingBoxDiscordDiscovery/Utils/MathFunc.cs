@@ -230,7 +230,7 @@ namespace BoundingBoxDiscordDiscovery.Utils
             return Math.Sqrt(distance);
         }
 
-        static public double MINDIST(Offline.Rectangle Q, Offline.Rectangle R)
+        static public double MINDIST(Offline.Rectangle Q, Offline.Rectangle R, double rate)
         {
             double distance = 0;
             for (int i = 0; i < Q.DIMENSIONS; i++)
@@ -238,10 +238,27 @@ namespace BoundingBoxDiscordDiscovery.Utils
                 if (R.min[i] > Q.max[i])
                     distance += (R.min[i] - Q.max[i]) * (R.min[i] - Q.max[i]);
                 else
-                    if ((R.max[i] < Q.min[i]))
-                    distance += (R.max[i] - Q.min[i]) * (R.max[i] - Q.min[i]);
+                    if (R.max[i] < Q.min[i])
+                        distance += (R.max[i] - Q.min[i]) * (R.max[i] - Q.min[i]);
             }
-            return Math.Sqrt(distance);
+            return Math.Sqrt(distance * rate);
+        }
+
+        static public double MINDIST(List<double> P_PAA, Offline.Rectangle R, double rate)
+        {
+            double distance = 0;
+
+            int len = P_PAA.Count;
+
+            for (int i = 0; i < len; i++)
+            {
+                if (R.min[i] > P_PAA[i])
+                    distance += (R.min[i] - P_PAA[i]) * (R.min[i] - P_PAA[i]);
+                else
+                   if (R.max[i] < P_PAA[i])
+                    distance += (R.max[i] - P_PAA[i]) * (R.max[i] - P_PAA[i]);
+            }
+            return Math.Sqrt(distance * rate);
         }
     }
 }
