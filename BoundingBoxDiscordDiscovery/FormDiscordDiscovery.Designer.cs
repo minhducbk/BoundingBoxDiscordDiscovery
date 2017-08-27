@@ -49,6 +49,9 @@
             this.txtExeTime = new System.Windows.Forms.Label();
             this.btnRunOnl = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.button_newOnline = new System.Windows.Forms.Button();
+            this.label_period = new System.Windows.Forms.Label();
+            this.text_period = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -86,7 +89,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(28, 454);
+            this.label3.Location = new System.Drawing.Point(29, 505);
             this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(241, 30);
@@ -112,13 +115,13 @@
             this.btnRunOff.TabIndex = 5;
             this.btnRunOff.Text = "Offline + MinDist";
             this.btnRunOff.UseVisualStyleBackColor = true;
-            this.btnRunOff.Click += new System.EventHandler(this.btnRunOffline_Click);
+            this.btnRunOff.Click += new System.EventHandler(this.btnRunOfflineMinDist_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(28, 509);
+            this.label4.Location = new System.Drawing.Point(29, 560);
             this.label4.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(237, 30);
@@ -128,7 +131,7 @@
             // bestSoFarDisVal
             // 
             this.bestSoFarDisVal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bestSoFarDisVal.Location = new System.Drawing.Point(294, 454);
+            this.bestSoFarDisVal.Location = new System.Drawing.Point(295, 505);
             this.bestSoFarDisVal.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.bestSoFarDisVal.Name = "bestSoFarDisVal";
             this.bestSoFarDisVal.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -140,7 +143,7 @@
             // bestSoFarLocVal
             // 
             this.bestSoFarLocVal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bestSoFarLocVal.Location = new System.Drawing.Point(291, 506);
+            this.bestSoFarLocVal.Location = new System.Drawing.Point(292, 557);
             this.bestSoFarLocVal.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.bestSoFarLocVal.Name = "bestSoFarLocVal";
             this.bestSoFarLocVal.Size = new System.Drawing.Size(262, 31);
@@ -233,7 +236,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(28, 561);
+            this.label9.Location = new System.Drawing.Point(29, 612);
             this.label9.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(249, 30);
@@ -243,7 +246,7 @@
             // txtExeTime
             // 
             this.txtExeTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtExeTime.Location = new System.Drawing.Point(354, 555);
+            this.txtExeTime.Location = new System.Drawing.Point(355, 606);
             this.txtExeTime.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.txtExeTime.Name = "txtExeTime";
             this.txtExeTime.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -254,18 +257,18 @@
             // btnRunOnl
             // 
             this.btnRunOnl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRunOnl.Location = new System.Drawing.Point(663, 338);
+            this.btnRunOnl.Location = new System.Drawing.Point(662, 337);
             this.btnRunOnl.Name = "btnRunOnl";
             this.btnRunOnl.Size = new System.Drawing.Size(222, 99);
             this.btnRunOnl.TabIndex = 19;
-            this.btnRunOnl.Text = "Run Online";
+            this.btnRunOnl.Text = "Online_Liu";
             this.btnRunOnl.UseVisualStyleBackColor = true;
             this.btnRunOnl.Click += new System.EventHandler(this.btnRunOnl_Click);
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(663, 206);
+            this.button1.Location = new System.Drawing.Point(663, 200);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(221, 113);
             this.button1.TabIndex = 20;
@@ -273,11 +276,44 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.btn_OriginalOffline_Click);
             // 
+            // button_newOnline
+            // 
+            this.button_newOnline.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_newOnline.Location = new System.Drawing.Point(664, 463);
+            this.button_newOnline.Name = "button_newOnline";
+            this.button_newOnline.Size = new System.Drawing.Size(220, 105);
+            this.button_newOnline.TabIndex = 21;
+            this.button_newOnline.Text = "New_Online";
+            this.button_newOnline.UseVisualStyleBackColor = true;
+            this.button_newOnline.Click += new System.EventHandler(this.Btn_NewOnline_Click);
+            // 
+            // label_period
+            // 
+            this.label_period.AutoSize = true;
+            this.label_period.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_period.Location = new System.Drawing.Point(28, 443);
+            this.label_period.Name = "label_period";
+            this.label_period.Size = new System.Drawing.Size(92, 31);
+            this.label_period.TabIndex = 22;
+            this.label_period.Text = "Period";
+            // 
+            // text_period
+            // 
+            this.text_period.Location = new System.Drawing.Point(272, 443);
+            this.text_period.Margin = new System.Windows.Forms.Padding(6);
+            this.text_period.Name = "text_period";
+            this.text_period.Size = new System.Drawing.Size(276, 31);
+            this.text_period.TabIndex = 23;
+            this.text_period.Text = "370";
+            // 
             // FormDiscordDiscovery
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(942, 604);
+            this.ClientSize = new System.Drawing.Size(924, 659);
+            this.Controls.Add(this.text_period);
+            this.Controls.Add(this.label_period);
+            this.Controls.Add(this.button_newOnline);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnRunOnl);
             this.Controls.Add(this.txtExeTime);
@@ -301,7 +337,7 @@
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "FormDiscordDiscovery";
-            this.Text = "Bounding Box Discord Discovery - ver 1.7 - 26 Aug 2017";
+            this.Text = "Bounding Box Discord Discovery - ver 1.8 - 28 Aug 2017";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -330,6 +366,9 @@
         private System.Windows.Forms.Label txtExeTime;
         private System.Windows.Forms.Button btnRunOnl;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button_newOnline;
+        private System.Windows.Forms.Label label_period;
+        private System.Windows.Forms.TextBox text_period;
     }
 }
 

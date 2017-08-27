@@ -1,7 +1,7 @@
 # BoundingBoxDiscordDiscovery
 BoundingBoxDiscordDiscovery for the thesis
 
-Ver 1.7 - 26 Aug - Master branch
+Ver 1.8 - 28 Aug - Master branch
 
 
 ToDo:

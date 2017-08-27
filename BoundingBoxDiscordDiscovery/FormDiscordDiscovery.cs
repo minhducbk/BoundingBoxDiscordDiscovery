@@ -21,6 +21,8 @@ namespace BoundingBoxDiscordDiscovery
         public double this_best_so_far_dist;
         public int this_best_so_far_loc_offline;
         public double this_best_so_far_dist_offline;
+        public int this_best_so_far_loc_TheMostDiscord;//TheMostDiscord T[1:sp]
+        public double this_best_so_far_dist_TheMostDiscord;//TheMostDiscord T[1:sp]
 
         public int this_NLength;
         public int this_D;
@@ -31,29 +33,200 @@ namespace BoundingBoxDiscordDiscovery
         public int this_id_item;
 
         public List<double> this_buffer;
-        
+        public List<double> this_buffer_to_startPoint;
 
         bool this_first_call_from_online;
         bool this_is_called_to_check;
+        bool this_is_called_from_newOnlineMethod;
         long this_exeTimeOffline;
 
         public FormDiscordDiscovery()
         {
             this.this_first_call_from_online = false;
             this.this_is_called_to_check = false;
+            this.this_is_called_from_newOnlineMethod = false;
             InitializeComponent();
         }
 
-        /*Run offline + minDist*/
-        private void btnRunOffline_Click(object sender, EventArgs e)
+
+        ////////////// Main Functions //////////////
+
+        /* Run original Offline (NO minDist) */
+        private void btn_OriginalOffline_Click(object sender, EventArgs e)
         {
             List<double> inputData;
 
             //get input data:
             if (this.this_first_call_from_online == true || this.this_is_called_to_check)
-                inputData = this.this_buffer;     
-            else 
+                inputData = this.this_buffer;
+            else
                 inputData = ReadFile.readFileIntoList(txtFileName.Text);
+
+            var watch = System.Diagnostics.Stopwatch.StartNew();///calc execution time
+
+            //get NLength
+            int NLength = Convert.ToInt16(txtNLength.Text);
+            //get max entry per node
+            int maxEntry = Convert.ToInt16(txtMaxEntry.Text);
+            //get min entry per node
+            int minEntry = Convert.ToInt16(txtMinEntry.Text);
+            //get R, it should be 5-10 percent
+            int R = Convert.ToInt16(txtR.Text);
+            //get D (reduced dimesion)
+            int D = Convert.ToInt16(txtD.Text);
+
+            int id_item = int.MinValue;
+            RTree<int> rtree = new RTree<int>(maxEntry, minEntry);
+
+            List<int> candidateList = new List<int>();
+            List<int> beginIndexInner = new List<int>();
+
+            double best_so_far_dist = 0;
+            int best_so_far_loc = 0;
+
+            double nearest_neighbor_dist = 0;
+            double dist = 0;
+            bool break_to_outer_loop = false;
+
+            bool[] is_skip_at_p = new bool[inputData.Count];
+            for (int i = 0; i < inputData.Count; i++)
+                is_skip_at_p[i] = false;
+
+            if (minEntry > maxEntry / 2)
+            {
+                MessageBox.Show("Requirement: MinNodePerEntry <= MaxNodePerEntry/2");
+                return;
+            }
+
+            List<Offline.Rectangle> recList = new List<Offline.Rectangle>();
+            List<int> id_itemList = new List<int>();
+
+            for (int i = 0; i <= inputData.Count - NLength; i++)
+            {
+                List<double> subseq = inputData.GetRange(i, NLength);
+                id_item++;
+                Offline.Rectangle new_rec = new Offline.Rectangle(Utils.MathFunc.PAA_Lower(subseq, D, R).ToArray(), Utils.MathFunc.PAA_Upper(subseq, D, R).ToArray(), i);
+                rtree.Add(new_rec, id_item);
+                recList.Add(new_rec);
+                id_itemList.Add(id_item);
+            }
+
+
+            Dictionary<int, Node<int>> nodeMap = rtree.getNodeMap();
+            List<Node<int>> leafNodes = nodeMap.Values.Where(node => node.level == 1).OrderBy(node => node.entryCount).ToList();
+
+            for (int i = 0; i < leafNodes.Count; i++)
+            {
+                List<Offline.Rectangle> leafEntries = leafNodes[i].entries.Where(mbr => mbr != null).Select(mbr => mbr).ToList();
+                if (leafEntries.Count > 0)
+                {
+                    int beginIndex = candidateList.Count;
+                    candidateList.AddRange(leafEntries.Select(mbr => mbr.getIndexSubSeq()));
+                    beginIndexInner.AddRange(Enumerable.Range(1, leafEntries.Count).Select(x => beginIndex));
+                }
+            }
+
+            for (int i = 0; i < candidateList.Count; i++)
+            {
+                int p = candidateList[i];
+                if (is_skip_at_p[p])
+                {
+                    //p was visited at inner loop before
+                    continue;
+                }
+                else
+                {
+                    nearest_neighbor_dist = Constant.INFINITE;
+
+                    for (int j = 0; j < candidateList.Count; j++)// inner loop
+                    {
+                        int index_inner = (beginIndexInner[i] + j) % candidateList.Count;
+                        int q = candidateList[index_inner];
+
+                        if (Math.Abs(p - q) < NLength)
+                        {
+                            continue;// self-match => skip to the next one
+                        }
+                        else
+                        {
+                            //calculate the Distance between p and q
+                            dist = MathFunc.EuDistance(inputData.GetRange(p, NLength), inputData.GetRange(q, NLength));
+
+                            if (dist < best_so_far_dist)
+                            {
+                                //skip the element q at oute_loop, 'cuz if (p,q) is not a solution, neither is (q,p).
+                                is_skip_at_p[q] = true;
+
+                                break_to_outer_loop = true; //break, to the next loop at outer_loop
+                                break;// break at inner_loop first
+                            }
+
+                            if (dist < nearest_neighbor_dist)
+                            {
+                                nearest_neighbor_dist = dist;
+                            }
+                        }
+                    }
+                    if (break_to_outer_loop)
+                    {
+                        break_to_outer_loop = false;//reset
+                        continue;//go to the next p in outer loop
+                    }
+
+                    if (nearest_neighbor_dist > best_so_far_dist)
+                    {
+                        best_so_far_dist = nearest_neighbor_dist;
+                        best_so_far_loc = p;
+                    }
+                }
+            }
+            bestSoFarDisVal.Text = best_so_far_dist.ToString();
+            bestSoFarLocVal.Text = best_so_far_loc.ToString();
+            watch.Stop(); //stop timer
+            long elapsedMs = watch.ElapsedMilliseconds;
+            this.txtExeTime.Text = elapsedMs.ToString();
+
+            if (this.this_first_call_from_online == true)
+            {
+                this.this_best_so_far_loc = best_so_far_loc;
+                this.this_best_so_far_dist = best_so_far_dist;
+                this.this_D = D;
+                this.this_R = R;
+                this.this_NLength = NLength;
+                this.this_RTree = rtree;
+                this.this_id_item = id_item;
+                this.this_recList = recList;
+                this.this_id_itemList = id_itemList;
+            }
+            else
+            {
+                //return result to other variables:
+                this.this_best_so_far_loc_offline = best_so_far_loc;
+                this.this_best_so_far_dist_offline = best_so_far_dist;
+                this.this_exeTimeOffline = elapsedMs;
+
+                //print timeExe to the console:
+                Console.WriteLine("ExeTime_offline=" + elapsedMs.ToString());
+            }
+
+            return;
+        }
+
+        /*Run new offline (minDist) */
+        private void btnRunOfflineMinDist_Click(object sender, EventArgs e)
+        {
+            List<double> inputData;
+
+            //get input data:
+            if (this.this_first_call_from_online == true || this.this_is_called_to_check)
+                inputData = this.this_buffer;
+            else
+            {
+                if (this.this_is_called_from_newOnlineMethod)
+                    inputData = this.this_buffer_to_startPoint;
+                else
+                    inputData = ReadFile.readFileIntoList(txtFileName.Text);
+            }
 
             var watch = System.Diagnostics.Stopwatch.StartNew();///calc execution time
 
@@ -284,19 +457,28 @@ namespace BoundingBoxDiscordDiscovery
             }
             else
             {
-                //return result to other variables:
-                this.this_best_so_far_loc_offline = best_so_far_loc;
-                this.this_best_so_far_dist_offline = best_so_far_dist;
-                this.this_exeTimeOffline = elapsedMs;
+                if (this.this_is_called_from_newOnlineMethod) //called from New Online, to calc TheMostDiscord T[1:sp]
+                {
+                    this.this_best_so_far_loc_TheMostDiscord = best_so_far_loc;
+                    this.this_best_so_far_dist_TheMostDiscord = best_so_far_dist;
+                }
+                else//called from  Liu_Online, to check online vs offline
+                {
+                    //return result to other variables:
+                    this.this_best_so_far_loc_offline = best_so_far_loc;
+                    this.this_best_so_far_dist_offline = best_so_far_dist;
+                    this.this_exeTimeOffline = elapsedMs;
 
-                //print timeExe to the console:
-                Console.WriteLine("ExeTime_offline=" + elapsedMs.ToString());
+                    //print timeExe to the console:
+                    Console.WriteLine("ExeTime_offline=" + elapsedMs.ToString());
+                }
+               
             }
 
             return;
         }
 
-        /*Run Online*/
+        /*Run Online (Liu method)*/
         private void btnRunOnl_Click(object sender, EventArgs e)
         {
             // Read training data:  (demo with 'ECG_5000' data)
@@ -313,7 +495,7 @@ namespace BoundingBoxDiscordDiscovery
 
             // Call 'Run Offline' for the first time, store results into variables ("this" object):
             this.this_first_call_from_online = true;
-            btnRunOffline_Click(sender, e);
+            btnRunOfflineMinDist_Click(sender, e);
             this.this_first_call_from_online = false;
 
             //store the last subsequence of the buffer:
@@ -373,7 +555,7 @@ namespace BoundingBoxDiscordDiscovery
                 Console.WriteLine("ExeTime_Online=" + elapsedMs.ToString());
 
                 //call offline version to assure the results and compare the time executions:
-                btnRunOffline_Click(sender, e);
+                btnRunOfflineMinDist_Click(sender, e);
 
                 //check:
                 if (Math.Abs(this.this_best_so_far_dist - this.this_best_so_far_dist_offline) < 10e-7)
@@ -399,6 +581,88 @@ namespace BoundingBoxDiscordDiscovery
 
             Console.WriteLine("--- Streaming's done (run out of data) ---");
         } //end btnRunOnl_Click function
+
+        /*Run Online - new method (inner loop only)*/
+        private void Btn_NewOnline_Click(object sender, EventArgs e)
+        {
+            //get period:
+            int period = Convert.ToInt16(text_period.Text);
+
+            // Read training data:  (demo with 'ECG_5000' data)
+            String training_filename = "ECG_5000_train.txt";
+            List<double> training_data = ReadFile.readFileIntoList(training_filename);
+
+            // Read streaming data: 
+            String streaming_filename = "ECG_5000_stream.txt";
+            List<double> streaming_data = ReadFile.readFileIntoList(streaming_filename);
+
+            //create a new buffer. In this demo, the buffer is training_data (edit later):
+            this.this_buffer = new List<double>();
+            this_buffer.AddRange(training_data);
+
+            // Call 'Run Offline' for the first time, store results into variables ("this" object):
+            this.this_first_call_from_online = true;
+            btnRunOfflineMinDist_Click(sender, e);
+            this.this_first_call_from_online = false;
+
+            //store the last subsequence of the buffer:
+            List<double> last_sub = this_buffer.GetRange(this_buffer.Count - this.this_NLength, this.this_NLength);
+
+            // STREAMING: keep streaming until we have no more data points
+            for (int index_stream = 0; index_stream < streaming_data.Count; index_stream++)
+            {
+                var watch = System.Diagnostics.Stopwatch.StartNew();///calc execution time
+
+                double new_data_point = streaming_data[index_stream];
+
+                //update last_sub at time t to get new_sub at time (t+1):
+                last_sub.Add(new_data_point);
+                last_sub.RemoveAt(0);
+                List<double> new_sub = last_sub; // the same object
+
+                // Insert the new entry into the tree:
+                this.this_id_item++;
+
+                // Add the new rec to the tree:
+                Offline.Rectangle new_rec = new Offline.Rectangle(Utils.MathFunc.PAA_Lower(new_sub, this.this_D, this.this_R).ToArray(), Utils.MathFunc.PAA_Upper(new_sub, this.this_D, this.this_R).ToArray(), this_buffer.Count - this.this_NLength + 1 + index_stream);
+                this.this_RTree.Add(new_rec, this_id_item);
+                this_recList.Add(new_rec);
+                this.this_id_itemList.Add(this_id_item);
+
+                //remove the oldest entry:
+                this.this_RTree.Delete(this.this_recList[index_stream], this.this_id_itemList[index_stream]);
+
+                // update buffer:
+                this_buffer.Add(new_data_point);
+                this_buffer.RemoveAt(0);
+
+                /* 'til now, we have already updated the tree.
+                 from now on, almost just copy the offline code:
+                 */
+                
+                //Run new_online_algorithm:
+                NewOnlineAlgorithm(this_buffer, 2 * period, index_stream, period, new_sub, sender, e);
+
+                watch.Stop(); //stop timer
+                long elapsedMs = watch.ElapsedMilliseconds;
+                //this.txtExeTime.Text = elapsedMs.ToString();
+
+                Console.WriteLine("ExeTime_Online=" + elapsedMs.ToString());
+                
+                Console.WriteLine("------------------------");
+
+            } // end For loop (streaming)
+
+            Console.WriteLine("--- Streaming's done (run out of data) ---");
+        }
+
+        ///////////////////////////////////////////
+
+
+
+        
+        
+        //////////// Helper Functions ///////////////
 
         /* Called by RunOnline_LiuMethod_edited:*/
         public void LiuEdited_CaseA(List<double> inputData, int index_stream)
@@ -889,170 +1153,87 @@ namespace BoundingBoxDiscordDiscovery
 
         } // End RunOnline_LiuMethod_edited
 
-        // original Offline (NO minDist)
-        private void btn_OriginalOffline_Click(object sender, EventArgs e) 
+        /* new_online_algorithm: */
+        public int NewOnlineAlgorithm(List<double> buffer, int startPoint, int index_stream, int period, List<double> new_sub, object sender, EventArgs e)
         {
-            List<double> inputData;
+            int best_so_far_loc = -1;
 
-            //get input data:
-            if (this.this_first_call_from_online == true || this.this_is_called_to_check)
-                inputData = this.this_buffer;
-            else
-                inputData = ReadFile.readFileIntoList(txtFileName.Text);
-
-            var watch = System.Diagnostics.Stopwatch.StartNew();///calc execution time
-
-            //get NLength
-            int NLength = Convert.ToInt16(txtNLength.Text);
-            //get max entry per node
-            int maxEntry = Convert.ToInt16(txtMaxEntry.Text);
-            //get min entry per node
-            int minEntry = Convert.ToInt16(txtMinEntry.Text);
-            //get R, it should be 5-10 percent
-            int R = Convert.ToInt16(txtR.Text);
-            //get D (reduced dimesion)
-            int D = Convert.ToInt16(txtD.Text);
-
-            int id_item = int.MinValue;
-            RTree<int> rtree = new RTree<int>(maxEntry, minEntry);
-
-            List<int> candidateList = new List<int>();
-            List<int> beginIndexInner = new List<int>();
-
-            double best_so_far_dist = 0;
-            int best_so_far_loc = 0;
-
-            double nearest_neighbor_dist = 0;
-            double dist = 0;
-            bool break_to_outer_loop = false;
-
-            bool[] is_skip_at_p = new bool[inputData.Count];
-            for (int i = 0; i < inputData.Count; i++)
-                is_skip_at_p[i] = false;
-
-            if (minEntry > maxEntry / 2)
+            // update data (for calculating thres) ?
+            if (index_stream % period == 0) //update after a period
             {
-                MessageBox.Show("Requirement: MinNodePerEntry <= MaxNodePerEntry/2");
-                return;
+                this.this_buffer_to_startPoint = buffer.GetRange(0, startPoint);
+
+                //calc TheMostDiscord T[1:sp] (return at "this_best_so_far_dist_TheMostDiscord" variable):
+                this.this_is_called_from_newOnlineMethod = true;
+                btnRunOfflineMinDist_Click(sender, e);
+                this.this_is_called_from_newOnlineMethod = false;
+
+                Console.WriteLine("update data (for calculating thres), at index_stream " + index_stream);
             }
 
-            List<Offline.Rectangle> recList = new List<Offline.Rectangle>();
-            List<int> id_itemList = new List<int>();
+            //get threshold_dist:
+            double threshold_dist = this.this_best_so_far_dist_TheMostDiscord;
 
-            for (int i = 0; i <= inputData.Count - NLength; i++)
-            {
-                List<double> subseq = inputData.GetRange(i, NLength);
-                id_item++;
-                Offline.Rectangle new_rec = new Offline.Rectangle(Utils.MathFunc.PAA_Lower(subseq, D, R).ToArray(), Utils.MathFunc.PAA_Upper(subseq, D, R).ToArray(), i);
-                rtree.Add(new_rec, id_item);
-                recList.Add(new_rec);
-                id_itemList.Add(id_item);
-            }
+            //index of new_subsequence q: 
+            int q_outer = buffer.Count - this_NLength;
 
-
-            Dictionary<int, Node<int>> nodeMap = rtree.getNodeMap();
+            // get Inner list:
+            Dictionary<int, Node<int>> nodeMap = this.this_RTree.getNodeMap();
             List<Node<int>> leafNodes = nodeMap.Values.Where(node => node.level == 1).OrderBy(node => node.entryCount).ToList();
 
-            for (int i = 0; i < leafNodes.Count; i++)
+            List<int> innerList = new List<int>();
+            for (int num = 0; num < leafNodes.Count; num++)
             {
-                List<Offline.Rectangle> leafEntries = leafNodes[i].entries.Where(mbr => mbr != null).Select(mbr => mbr).ToList();
-                if (leafEntries.Count > 0)
+                List<int> all_entry_IDs_from_a_node = leafNodes[num].entries.Where(mbr => (mbr != null) && (mbr.getIndexSubSeq(index_stream + 1) != q_outer)).Select(mbr => mbr.getIndexSubSeq(index_stream + 1)).ToList();
+
+                if (all_entry_IDs_from_a_node.Count == leafNodes[num].entryCount) // if q in the outer loop is NOT in this leaf:
                 {
-                    int beginIndex = candidateList.Count;
-                    candidateList.AddRange(leafEntries.Select(mbr => mbr.getIndexSubSeq()));
-                    beginIndexInner.AddRange(Enumerable.Range(1, leafEntries.Count).Select(x => beginIndex));
+                    innerList.AddRange(all_entry_IDs_from_a_node);
+                }
+                else // If q is IN this leaf: We add all entry ids in the leaf to the head of the innerList 
+                {
+                    innerList.InsertRange(0, all_entry_IDs_from_a_node);
+                    // note: In this case, all_Entry_IDs_from_a_node doesnt include 'q' id.
                 }
             }
 
-            for (int i = 0; i < candidateList.Count; i++)
+            double nearest_neighbor_dist = Constant.INFINITE;
+            foreach (int p_inner in innerList)
             {
-                int p = candidateList[i];
-                if (is_skip_at_p[p])
+                if (Math.Abs(p_inner - q_outer) >= this_NLength)
                 {
-                    //p was visited at inner loop before
-                    continue;
-                }
-                else
-                {
-                    nearest_neighbor_dist = Constant.INFINITE;
-               
-                    for (int j=0; j<candidateList.Count;j++)// inner loop
+                    //calculate the Distance between p and q
+                    double dist = MathFunc.EuDistance(new_sub, buffer.GetRange(p_inner, this.this_NLength));
+
+                    if (dist < nearest_neighbor_dist)
                     {
-                        int index_inner = (beginIndexInner[i] + j) % candidateList.Count;
-                        int q = candidateList[index_inner];
-
-                        if (Math.Abs(p - q) < NLength)
-                        {
-                            continue;// self-match => skip to the next one
-                        }
-                        else
-                        {
-                            //calculate the Distance between p and q
-                            dist = MathFunc.EuDistance(inputData.GetRange(p, NLength), inputData.GetRange(q, NLength));
-
-                            if (dist < best_so_far_dist)
-                            {
-                                //skip the element q at oute_loop, 'cuz if (p,q) is not a solution, neither is (q,p).
-                                is_skip_at_p[q] = true;
-
-                                break_to_outer_loop = true; //break, to the next loop at outer_loop
-                                break;// break at inner_loop first
-                            }
-
-                            if (dist < nearest_neighbor_dist)
-                            {
-                                nearest_neighbor_dist = dist;
-                            }
-                        }
-                    }
-                    if (break_to_outer_loop)
-                    {
-                        break_to_outer_loop = false;//reset
-                        continue;//go to the next p in outer loop
+                        nearest_neighbor_dist = dist;
+                        best_so_far_loc = p_inner; //store best_so_far_loc
                     }
 
-                    if (nearest_neighbor_dist > best_so_far_dist)
-                    {
-                        best_so_far_dist = nearest_neighbor_dist;
-                        best_so_far_loc = p;
-                    }
+                    if (dist < threshold_dist)
+                        break;
                 }
             }
-            bestSoFarDisVal.Text = best_so_far_dist.ToString();
-            bestSoFarLocVal.Text = best_so_far_loc.ToString();
-            watch.Stop(); //stop timer
-            long elapsedMs = watch.ElapsedMilliseconds;
-            this.txtExeTime.Text = elapsedMs.ToString();
+          
 
-            if (this.this_first_call_from_online == true)
+            if (nearest_neighbor_dist > threshold_dist)
             {
-                this.this_best_so_far_loc = best_so_far_loc;
-                this.this_best_so_far_dist = best_so_far_dist;
-                this.this_D = D;
-                this.this_R = R;
-                this.this_NLength = NLength;
-                this.this_RTree = rtree;
-                this.this_id_item = id_item;
-                this.this_recList = recList;
-                this.this_id_itemList = id_itemList;
+                Console.WriteLine("Discord!\nbest_so_far_loc = " + best_so_far_loc + "\nbest_so_far_dist = " + nearest_neighbor_dist);
             }
             else
             {
-                //return result to other variables:
-                this.this_best_so_far_loc_offline = best_so_far_loc;
-                this.this_best_so_far_dist_offline = best_so_far_dist;
-                this.this_exeTimeOffline = elapsedMs;
-
-                //print timeExe to the console:
-                Console.WriteLine("ExeTime_offline=" + elapsedMs.ToString());
+                Console.WriteLine("No discord");
             }
 
-            return;
-        }
+            return best_so_far_loc; //return "-1" if there is no discord.
+        }//end Function
+        ///////////////////////////////////////////
 
 
-        ////////////////////////////////////// 
-        /* useless functions */
+
+
+        /////////////// Useless Functions ///////////// 
 
         public void RunOnline_Method1(List<double> buffer, int index_stream, List<int> candidate_list_reduced = null)
         {
@@ -1239,7 +1420,8 @@ namespace BoundingBoxDiscordDiscovery
             } //end IF ELSE
 
         } // End RunOnline_LiuMethod
-        /////////////////////////////////////
+
+        //////////////////////////////////////////////
 
     } //end class
 } // end file
