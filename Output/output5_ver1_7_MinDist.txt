@@ -1,0 +1,8022 @@
+'BoundingBoxDiscordDiscovery.vshost.exe' (CLR v4.0.30319: BoundingBoxDiscordDiscovery.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'BoundingBoxDiscordDiscovery.vshost.exe' (CLR v4.0.30319: BoundingBoxDiscordDiscovery.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'BoundingBoxDiscordDiscovery.vshost.exe' (CLR v4.0.30319: BoundingBoxDiscordDiscovery.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'BoundingBoxDiscordDiscovery.vshost.exe' (CLR v4.0.30319: BoundingBoxDiscordDiscovery.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'BoundingBoxDiscordDiscovery.vshost.exe' (CLR v4.0.30319: BoundingBoxDiscordDiscovery.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'BoundingBoxDiscordDiscovery.vshost.exe' (CLR v4.0.30319: BoundingBoxDiscordDiscovery.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'BoundingBoxDiscordDiscovery.vshost.exe' (CLR v4.0.30319: BoundingBoxDiscordDiscovery.vshost.exe): Loaded 'C:\Windows\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\14.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'BoundingBoxDiscordDiscovery.vshost.exe' (CLR v4.0.30319: BoundingBoxDiscordDiscovery.vshost.exe): Loaded 'C:\Users\Chau_W10\Documents\Thesis\BoundingBoxDiscordDiscovery\BoundingBoxDiscordDiscovery\bin\Debug\BoundingBoxDiscordDiscovery.vshost.exe'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'BoundingBoxDiscordDiscovery.vshost.exe' (CLR v4.0.30319: BoundingBoxDiscordDiscovery.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'BoundingBoxDiscordDiscovery.vshost.exe' (CLR v4.0.30319: BoundingBoxDiscordDiscovery.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'BoundingBoxDiscordDiscovery.vshost.exe' (CLR v4.0.30319: BoundingBoxDiscordDiscovery.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.DataSetExtensions\v4.0_4.0.0.0__b77a5c561934e089\System.Data.DataSetExtensions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'BoundingBoxDiscordDiscovery.vshost.exe' (CLR v4.0.30319: BoundingBoxDiscordDiscovery.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'BoundingBoxDiscordDiscovery.vshost.exe' (CLR v4.0.30319: BoundingBoxDiscordDiscovery.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'BoundingBoxDiscordDiscovery.vshost.exe' (CLR v4.0.30319: BoundingBoxDiscordDiscovery.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Deployment\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Deployment.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'BoundingBoxDiscordDiscovery.vshost.exe' (CLR v4.0.30319: BoundingBoxDiscordDiscovery.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Net.Http\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Net.Http.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'BoundingBoxDiscordDiscovery.vshost.exe' (CLR v4.0.30319: BoundingBoxDiscordDiscovery.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+The thread 0x2114 has exited with code 0 (0x0).
+The thread 0x1e84 has exited with code 0 (0x0).
+'BoundingBoxDiscordDiscovery.vshost.exe' (CLR v4.0.30319: BoundingBoxDiscordDiscovery.vshost.exe): Loaded 'C:\Users\Chau_W10\Documents\Thesis\BoundingBoxDiscordDiscovery\BoundingBoxDiscordDiscovery\bin\Debug\BoundingBoxDiscordDiscovery.exe'. Symbols loaded.
+'BoundingBoxDiscordDiscovery.vshost.exe' (CLR v4.0.30319: BoundingBoxDiscordDiscovery.vshost.exe): Loaded 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'BoundingBoxDiscordDiscovery.vshost.exe' (CLR v4.0.30319: BoundingBoxDiscordDiscovery.vshost.exe): Loaded 'C:\Users\Chau_W10\Documents\Thesis\BoundingBoxDiscordDiscovery\BoundingBoxDiscordDiscovery\bin\Debug\log4net.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+Running case (a)...
+index_stream=0
+best_so_far_loc=1878
+best_so_far_dist=0.500599640431353
+ExeTime_Online=84
+ExeTime_offline=243
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=1
+best_so_far_loc=1877
+best_so_far_dist=0.494873721266344
+ExeTime_Online=92
+ExeTime_offline=281
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=2
+best_so_far_loc=1877
+best_so_far_dist=0.491222963632605
+ExeTime_Online=95
+ExeTime_offline=231
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=3
+best_so_far_loc=1879
+best_so_far_dist=0.490509938737229
+ExeTime_Online=95
+ExeTime_offline=260
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=4
+best_so_far_loc=1879
+best_so_far_dist=0.490509938737229
+ExeTime_Online=103
+ExeTime_offline=241
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=5
+best_so_far_loc=1880
+best_so_far_dist=0.485798312059645
+ExeTime_Online=96
+ExeTime_offline=268
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=6
+best_so_far_loc=1879
+best_so_far_dist=0.4822862220715
+ExeTime_Online=104
+ExeTime_offline=222
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=7
+best_so_far_loc=1879
+best_so_far_dist=0.474130783645188
+ExeTime_Online=117
+ExeTime_offline=233
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=8
+best_so_far_loc=1878
+best_so_far_dist=0.465832587954084
+ExeTime_Online=115
+ExeTime_offline=253
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=9
+best_so_far_loc=1878
+best_so_far_dist=0.459673797382448
+ExeTime_Online=127
+ExeTime_offline=259
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=10
+best_so_far_loc=1878
+best_so_far_dist=0.452990066116245
+ExeTime_Online=138
+ExeTime_offline=281
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=11
+best_so_far_loc=1878
+best_so_far_dist=0.447660585711988
+ExeTime_Online=147
+ExeTime_offline=281
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=12
+best_so_far_loc=1878
+best_so_far_dist=0.444634681508315
+ExeTime_Online=160
+ExeTime_offline=301
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 13
+best_so_far_loc = 1877
+best_so_far_dist = 0.444634681508315
+ExeTime_Online=11
+ExeTime_offline=279
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=14
+best_so_far_loc=1877
+best_so_far_dist=0.441701256507156
+ExeTime_Online=162
+ExeTime_offline=292
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=15
+best_so_far_loc=1709
+best_so_far_dist=0.434165866921849
+ExeTime_Online=166
+ExeTime_offline=381
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 16
+best_so_far_loc = 1708
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=15
+ExeTime_offline=259
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 17
+best_so_far_loc = 1707
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=15
+ExeTime_offline=231
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 18
+best_so_far_loc = 1706
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=14
+ExeTime_offline=239
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 19
+best_so_far_loc = 1705
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=16
+ExeTime_offline=262
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 20
+best_so_far_loc = 1704
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=16
+ExeTime_offline=259
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 21
+best_so_far_loc = 1703
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=17
+ExeTime_offline=278
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 22
+best_so_far_loc = 1702
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=18
+ExeTime_offline=251
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 23
+best_so_far_loc = 1701
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=16
+ExeTime_offline=247
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 24
+best_so_far_loc = 1700
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=16
+ExeTime_offline=233
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 25
+best_so_far_loc = 1699
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=15
+ExeTime_offline=258
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 26
+best_so_far_loc = 1698
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=19
+ExeTime_offline=240
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 27
+best_so_far_loc = 1697
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=16
+ExeTime_offline=230
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 28
+best_so_far_loc = 1696
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=16
+ExeTime_offline=250
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 29
+best_so_far_loc = 1695
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=16
+ExeTime_offline=252
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 30
+best_so_far_loc = 1694
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=19
+ExeTime_offline=282
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 31
+best_so_far_loc = 1693
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=16
+ExeTime_offline=273
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 32
+best_so_far_loc = 1692
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=15
+ExeTime_offline=259
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 33
+best_so_far_loc = 1691
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=17
+ExeTime_offline=305
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 34
+best_so_far_loc = 1690
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=15
+ExeTime_offline=250
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 35
+best_so_far_loc = 1689
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=12
+ExeTime_offline=214
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 36
+best_so_far_loc = 1688
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=9
+ExeTime_offline=283
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 37
+best_so_far_loc = 1687
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=7
+ExeTime_offline=261
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 38
+best_so_far_loc = 1686
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=7
+ExeTime_offline=255
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 39
+best_so_far_loc = 1685
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=7
+ExeTime_offline=252
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 40
+best_so_far_loc = 1684
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=6
+ExeTime_offline=246
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 41
+best_so_far_loc = 1683
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=6
+ExeTime_offline=233
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 42
+best_so_far_loc = 1682
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=7
+ExeTime_offline=232
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 43
+best_so_far_loc = 1681
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=7
+ExeTime_offline=241
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 44
+best_so_far_loc = 1680
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=7
+ExeTime_offline=293
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 45
+best_so_far_loc = 1679
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=7
+ExeTime_offline=271
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 46
+best_so_far_loc = 1678
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=7
+ExeTime_offline=230
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 47
+best_so_far_loc = 1677
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=7
+ExeTime_offline=293
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 48
+best_so_far_loc = 1676
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=7
+ExeTime_offline=254
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 49
+best_so_far_loc = 1675
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=8
+ExeTime_offline=216
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 50
+best_so_far_loc = 1674
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=10
+ExeTime_offline=258
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 51
+best_so_far_loc = 1673
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=10
+ExeTime_offline=265
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 52
+best_so_far_loc = 1672
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=11
+ExeTime_offline=274
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 53
+best_so_far_loc = 1671
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=7
+ExeTime_offline=248
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 54
+best_so_far_loc = 1670
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=6
+ExeTime_offline=274
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 55
+best_so_far_loc = 1669
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=8
+ExeTime_offline=279
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 56
+best_so_far_loc = 1668
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=10
+ExeTime_offline=230
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 57
+best_so_far_loc = 1667
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=9
+ExeTime_offline=262
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 58
+best_so_far_loc = 1666
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=7
+ExeTime_offline=260
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 59
+best_so_far_loc = 1665
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=6
+ExeTime_offline=276
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 60
+best_so_far_loc = 1664
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=6
+ExeTime_offline=234
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 61
+best_so_far_loc = 1663
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=6
+ExeTime_offline=264
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 62
+best_so_far_loc = 1662
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=6
+ExeTime_offline=262
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 63
+best_so_far_loc = 1661
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=6
+ExeTime_offline=263
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 64
+best_so_far_loc = 1660
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=7
+ExeTime_offline=244
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 65
+best_so_far_loc = 1659
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=6
+ExeTime_offline=277
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 66
+best_so_far_loc = 1658
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=9
+ExeTime_offline=297
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 67
+best_so_far_loc = 1657
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=9
+ExeTime_offline=257
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 68
+best_so_far_loc = 1656
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=9
+ExeTime_offline=299
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 69
+best_so_far_loc = 1655
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=6
+ExeTime_offline=287
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 70
+best_so_far_loc = 1654
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=6
+ExeTime_offline=268
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 71
+best_so_far_loc = 1653
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=9
+ExeTime_offline=270
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 72
+best_so_far_loc = 1652
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=7
+ExeTime_offline=268
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 73
+best_so_far_loc = 1651
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=6
+ExeTime_offline=242
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 74
+best_so_far_loc = 1650
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=6
+ExeTime_offline=259
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 75
+best_so_far_loc = 1649
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=9
+ExeTime_offline=220
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 76
+best_so_far_loc = 1648
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=7
+ExeTime_offline=236
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 77
+best_so_far_loc = 1647
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=7
+ExeTime_offline=230
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 78
+best_so_far_loc = 1646
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=6
+ExeTime_offline=253
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 79
+best_so_far_loc = 1645
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=7
+ExeTime_offline=294
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 80
+best_so_far_loc = 1644
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=10
+ExeTime_offline=312
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 81
+best_so_far_loc = 1643
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=6
+ExeTime_offline=280
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 82
+best_so_far_loc = 1642
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=9
+ExeTime_offline=287
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 83
+best_so_far_loc = 1641
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=10
+ExeTime_offline=293
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 84
+best_so_far_loc = 1640
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=7
+ExeTime_offline=252
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 85
+best_so_far_loc = 1639
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=6
+ExeTime_offline=257
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 86
+best_so_far_loc = 1638
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=9
+ExeTime_offline=247
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 87
+best_so_far_loc = 1637
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=8
+ExeTime_offline=275
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 88
+best_so_far_loc = 1636
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=11
+ExeTime_offline=389
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 89
+best_so_far_loc = 1635
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=7
+ExeTime_offline=262
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 90
+best_so_far_loc = 1634
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=7
+ExeTime_offline=291
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 91
+best_so_far_loc = 1633
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=11
+ExeTime_offline=366
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 92
+best_so_far_loc = 1632
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=7
+ExeTime_offline=312
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 93
+best_so_far_loc = 1631
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=12
+ExeTime_offline=315
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 94
+best_so_far_loc = 1630
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=7
+ExeTime_offline=323
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 95
+best_so_far_loc = 1629
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=12
+ExeTime_offline=293
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 96
+best_so_far_loc = 1628
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=9
+ExeTime_offline=246
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 97
+best_so_far_loc = 1627
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=10
+ExeTime_offline=291
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 98
+best_so_far_loc = 1626
+best_so_far_dist = 0.434165866921849
+ExeTime_Online=16
+ExeTime_offline=283
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 99
+best_so_far_loc = 3960
+best_so_far_dist = 0.523163454381134
+ExeTime_Online=20
+ExeTime_offline=239
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=100
+best_so_far_loc=3960
+best_so_far_dist=0.610409698481274
+ExeTime_Online=145
+ExeTime_offline=275
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=101
+best_so_far_loc=3960
+best_so_far_dist=0.666258208204597
+ExeTime_Online=65
+ExeTime_offline=237
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=102
+best_so_far_loc=3960
+best_so_far_dist=0.728903285765677
+ExeTime_Online=58
+ExeTime_offline=249
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=103
+best_so_far_loc=3960
+best_so_far_dist=0.790948797331408
+ExeTime_Online=66
+ExeTime_offline=310
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=104
+best_so_far_loc=3960
+best_so_far_dist=0.828673639015988
+ExeTime_Online=62
+ExeTime_offline=303
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=105
+best_so_far_loc=3960
+best_so_far_dist=0.845399313933954
+ExeTime_Online=69
+ExeTime_offline=236
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=106
+best_so_far_loc=3960
+best_so_far_dist=0.864349466361841
+ExeTime_Online=78
+ExeTime_offline=239
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=107
+best_so_far_loc=3960
+best_so_far_dist=0.890393171582083
+ExeTime_Online=75
+ExeTime_offline=224
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=108
+best_so_far_loc=3960
+best_so_far_dist=0.922442410126507
+ExeTime_Online=80
+ExeTime_offline=323
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=109
+best_so_far_loc=3960
+best_so_far_dist=0.947470316157715
+ExeTime_Online=89
+ExeTime_offline=201
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=110
+best_so_far_loc=3960
+best_so_far_dist=0.956869897112455
+ExeTime_Online=93
+ExeTime_offline=286
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=111
+best_so_far_loc=3960
+best_so_far_dist=0.960156237286412
+ExeTime_Online=105
+ExeTime_offline=206
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=112
+best_so_far_loc=3960
+best_so_far_dist=0.960624796681826
+ExeTime_Online=74
+ExeTime_offline=244
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=113
+best_so_far_loc=3959
+best_so_far_dist=0.960624796681826
+ExeTime_Online=47
+ExeTime_offline=224
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=114
+best_so_far_loc=3960
+best_so_far_dist=0.974422906134703
+ExeTime_Online=45
+ExeTime_offline=309
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=115
+best_so_far_loc=3960
+best_so_far_dist=1.01345942197998
+ExeTime_Online=54
+ExeTime_offline=184
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=116
+best_so_far_loc=3960
+best_so_far_dist=1.05863119168103
+ExeTime_Online=53
+ExeTime_offline=236
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=117
+best_so_far_loc=3960
+best_so_far_dist=1.09498858441538
+ExeTime_Online=60
+ExeTime_offline=181
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=118
+best_so_far_loc=3960
+best_so_far_dist=1.11476454913134
+ExeTime_Online=63
+ExeTime_offline=226
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=119
+best_so_far_loc=3960
+best_so_far_dist=1.11946415753252
+ExeTime_Online=70
+ExeTime_offline=230
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=120
+best_so_far_loc=3959
+best_so_far_dist=1.11946415753252
+ExeTime_Online=65
+ExeTime_offline=261
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=121
+best_so_far_loc=3960
+best_so_far_dist=1.1195981421921
+ExeTime_Online=73
+ExeTime_offline=204
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=122
+best_so_far_loc=3959
+best_so_far_dist=1.1195981421921
+ExeTime_Online=76
+ExeTime_offline=324
+checked, ok.
+------------------------
+Running case (a)...
+index_stream=123
+best_so_far_loc=3958
+best_so_far_dist=1.1195981421921
+ExeTime_Online=80
+ExeTime_offline=247
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 124
+best_so_far_loc = 3957
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=36
+ExeTime_offline=238
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 125
+best_so_far_loc = 3956
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=37
+ExeTime_offline=293
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 126
+best_so_far_loc = 3955
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=34
+ExeTime_offline=214
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 127
+best_so_far_loc = 3954
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=212
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 128
+best_so_far_loc = 3953
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=36
+ExeTime_offline=239
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 129
+best_so_far_loc = 3952
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=34
+ExeTime_offline=226
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 130
+best_so_far_loc = 3951
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=199
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 131
+best_so_far_loc = 3950
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=216
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 132
+best_so_far_loc = 3949
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=38
+ExeTime_offline=206
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 133
+best_so_far_loc = 3948
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=37
+ExeTime_offline=206
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 134
+best_so_far_loc = 3947
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=207
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 135
+best_so_far_loc = 3946
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=226
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 136
+best_so_far_loc = 3945
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=221
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 137
+best_so_far_loc = 3944
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=196
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 138
+best_so_far_loc = 3943
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=189
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 139
+best_so_far_loc = 3942
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=35
+ExeTime_offline=207
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 140
+best_so_far_loc = 3941
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=193
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 141
+best_so_far_loc = 3940
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=211
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 142
+best_so_far_loc = 3939
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=188
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 143
+best_so_far_loc = 3938
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=235
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 144
+best_so_far_loc = 3937
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=203
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 145
+best_so_far_loc = 3936
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=216
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 146
+best_so_far_loc = 3935
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=205
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 147
+best_so_far_loc = 3934
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=222
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 148
+best_so_far_loc = 3933
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=221
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 149
+best_so_far_loc = 3932
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=228
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 150
+best_so_far_loc = 3931
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=204
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 151
+best_so_far_loc = 3930
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=267
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 152
+best_so_far_loc = 3929
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=200
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 153
+best_so_far_loc = 3928
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=196
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 154
+best_so_far_loc = 3927
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=202
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 155
+best_so_far_loc = 3926
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=207
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 156
+best_so_far_loc = 3925
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=198
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 157
+best_so_far_loc = 3924
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=34
+ExeTime_offline=201
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 158
+best_so_far_loc = 3923
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=180
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 159
+best_so_far_loc = 3922
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=253
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 160
+best_so_far_loc = 3921
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=248
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 161
+best_so_far_loc = 3920
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=252
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 162
+best_so_far_loc = 3919
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=258
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 163
+best_so_far_loc = 3918
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=246
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 164
+best_so_far_loc = 3917
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=207
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 165
+best_so_far_loc = 3916
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=233
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 166
+best_so_far_loc = 3915
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=232
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 167
+best_so_far_loc = 3914
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=223
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 168
+best_so_far_loc = 3913
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=202
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 169
+best_so_far_loc = 3912
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=242
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 170
+best_so_far_loc = 3911
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=34
+ExeTime_offline=199
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 171
+best_so_far_loc = 3910
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=34
+ExeTime_offline=196
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 172
+best_so_far_loc = 3909
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=197
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 173
+best_so_far_loc = 3908
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=243
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 174
+best_so_far_loc = 3907
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=220
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 175
+best_so_far_loc = 3906
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=241
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 176
+best_so_far_loc = 3905
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=34
+ExeTime_offline=202
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 177
+best_so_far_loc = 3904
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=242
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 178
+best_so_far_loc = 3903
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=234
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 179
+best_so_far_loc = 3902
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=186
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 180
+best_so_far_loc = 3901
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=222
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 181
+best_so_far_loc = 3900
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=35
+ExeTime_offline=228
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 182
+best_so_far_loc = 3899
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=215
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 183
+best_so_far_loc = 3898
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=230
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 184
+best_so_far_loc = 3897
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=214
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 185
+best_so_far_loc = 3896
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=45
+ExeTime_offline=236
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 186
+best_so_far_loc = 3895
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=241
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 187
+best_so_far_loc = 3894
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=240
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 188
+best_so_far_loc = 3893
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=34
+ExeTime_offline=220
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 189
+best_so_far_loc = 3892
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=34
+ExeTime_offline=206
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 190
+best_so_far_loc = 3891
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=204
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 191
+best_so_far_loc = 3890
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=183
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 192
+best_so_far_loc = 3889
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=186
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 193
+best_so_far_loc = 3888
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=223
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 194
+best_so_far_loc = 3887
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=220
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 195
+best_so_far_loc = 3886
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=35
+ExeTime_offline=213
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 196
+best_so_far_loc = 3885
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=36
+ExeTime_offline=206
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 197
+best_so_far_loc = 3884
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=34
+ExeTime_offline=272
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 198
+best_so_far_loc = 3883
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=207
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 199
+best_so_far_loc = 3882
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=201
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 200
+best_so_far_loc = 3881
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=38
+ExeTime_offline=193
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 201
+best_so_far_loc = 3880
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=40
+ExeTime_offline=193
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 202
+best_so_far_loc = 3879
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=199
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 203
+best_so_far_loc = 3878
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=206
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 204
+best_so_far_loc = 3877
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=35
+ExeTime_offline=251
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 205
+best_so_far_loc = 3876
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=248
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 206
+best_so_far_loc = 3875
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=40
+ExeTime_offline=270
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 207
+best_so_far_loc = 3874
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=190
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 208
+best_so_far_loc = 3873
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=199
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 209
+best_so_far_loc = 3872
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=197
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 210
+best_so_far_loc = 3871
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=206
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 211
+best_so_far_loc = 3870
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=40
+ExeTime_offline=216
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 212
+best_so_far_loc = 3869
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=236
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 213
+best_so_far_loc = 3868
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=183
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 214
+best_so_far_loc = 3867
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=230
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 215
+best_so_far_loc = 3866
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=34
+ExeTime_offline=233
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 216
+best_so_far_loc = 3865
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=202
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 217
+best_so_far_loc = 3864
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=235
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 218
+best_so_far_loc = 3863
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=212
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 219
+best_so_far_loc = 3862
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=210
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 220
+best_so_far_loc = 3861
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=237
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 221
+best_so_far_loc = 3860
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=216
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 222
+best_so_far_loc = 3859
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=224
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 223
+best_so_far_loc = 3858
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=219
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 224
+best_so_far_loc = 3857
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=192
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 225
+best_so_far_loc = 3856
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=34
+ExeTime_offline=212
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 226
+best_so_far_loc = 3855
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=205
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 227
+best_so_far_loc = 3854
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=222
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 228
+best_so_far_loc = 3853
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=227
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 229
+best_so_far_loc = 3852
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=203
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 230
+best_so_far_loc = 3851
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=35
+ExeTime_offline=189
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 231
+best_so_far_loc = 3850
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=37
+ExeTime_offline=256
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 232
+best_so_far_loc = 3849
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=222
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 233
+best_so_far_loc = 3848
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=226
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 234
+best_so_far_loc = 3847
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=205
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 235
+best_so_far_loc = 3846
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=224
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 236
+best_so_far_loc = 3845
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=255
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 237
+best_so_far_loc = 3844
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=213
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 238
+best_so_far_loc = 3843
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=235
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 239
+best_so_far_loc = 3842
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=237
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 240
+best_so_far_loc = 3841
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=196
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 241
+best_so_far_loc = 3840
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=209
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 242
+best_so_far_loc = 3839
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=216
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 243
+best_so_far_loc = 3838
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=222
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 244
+best_so_far_loc = 3837
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=224
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 245
+best_so_far_loc = 3836
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=251
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 246
+best_so_far_loc = 3835
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=194
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 247
+best_so_far_loc = 3834
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=205
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 248
+best_so_far_loc = 3833
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=230
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 249
+best_so_far_loc = 3832
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=219
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 250
+best_so_far_loc = 3831
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=227
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 251
+best_so_far_loc = 3830
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=241
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 252
+best_so_far_loc = 3829
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=229
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 253
+best_so_far_loc = 3828
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=247
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 254
+best_so_far_loc = 3827
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=292
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 255
+best_so_far_loc = 3826
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=192
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 256
+best_so_far_loc = 3825
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=260
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 257
+best_so_far_loc = 3824
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=36
+ExeTime_offline=253
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 258
+best_so_far_loc = 3823
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=208
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 259
+best_so_far_loc = 3822
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=26
+ExeTime_offline=216
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 260
+best_so_far_loc = 3821
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=303
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 261
+best_so_far_loc = 3820
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=251
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 262
+best_so_far_loc = 3819
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=26
+ExeTime_offline=214
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 263
+best_so_far_loc = 3818
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=223
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 264
+best_so_far_loc = 3817
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=220
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 265
+best_so_far_loc = 3816
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=223
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 266
+best_so_far_loc = 3815
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=26
+ExeTime_offline=210
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 267
+best_so_far_loc = 3814
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=26
+ExeTime_offline=241
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 268
+best_so_far_loc = 3813
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=26
+ExeTime_offline=202
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 269
+best_so_far_loc = 3812
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=216
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 270
+best_so_far_loc = 3811
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=202
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 271
+best_so_far_loc = 3810
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=216
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 272
+best_so_far_loc = 3809
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=214
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 273
+best_so_far_loc = 3808
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=26
+ExeTime_offline=213
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 274
+best_so_far_loc = 3807
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=220
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 275
+best_so_far_loc = 3806
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=247
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 276
+best_so_far_loc = 3805
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=245
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 277
+best_so_far_loc = 3804
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=271
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 278
+best_so_far_loc = 3803
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=223
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 279
+best_so_far_loc = 3802
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=215
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 280
+best_so_far_loc = 3801
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=235
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 281
+best_so_far_loc = 3800
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=235
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 282
+best_so_far_loc = 3799
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=199
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 283
+best_so_far_loc = 3798
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=209
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 284
+best_so_far_loc = 3797
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=212
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 285
+best_so_far_loc = 3796
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=213
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 286
+best_so_far_loc = 3795
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=267
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 287
+best_so_far_loc = 3794
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=225
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 288
+best_so_far_loc = 3793
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=240
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 289
+best_so_far_loc = 3792
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=216
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 290
+best_so_far_loc = 3791
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=234
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 291
+best_so_far_loc = 3790
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=231
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 292
+best_so_far_loc = 3789
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=196
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 293
+best_so_far_loc = 3788
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=212
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 294
+best_so_far_loc = 3787
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=213
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 295
+best_so_far_loc = 3786
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=214
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 296
+best_so_far_loc = 3785
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=217
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 297
+best_so_far_loc = 3784
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=212
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 298
+best_so_far_loc = 3783
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=247
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 299
+best_so_far_loc = 3782
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=239
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 300
+best_so_far_loc = 3781
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=189
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 301
+best_so_far_loc = 3780
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=196
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 302
+best_so_far_loc = 3779
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=222
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 303
+best_so_far_loc = 3778
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=209
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 304
+best_so_far_loc = 3777
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=263
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 305
+best_so_far_loc = 3776
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=201
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 306
+best_so_far_loc = 3775
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=244
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 307
+best_so_far_loc = 3774
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=216
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 308
+best_so_far_loc = 3773
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=205
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 309
+best_so_far_loc = 3772
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=285
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 310
+best_so_far_loc = 3771
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=214
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 311
+best_so_far_loc = 3770
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=207
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 312
+best_so_far_loc = 3769
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=241
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 313
+best_so_far_loc = 3768
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=264
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 314
+best_so_far_loc = 3767
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=190
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 315
+best_so_far_loc = 3766
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=226
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 316
+best_so_far_loc = 3765
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=229
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 317
+best_so_far_loc = 3764
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=227
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 318
+best_so_far_loc = 3763
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=240
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 319
+best_so_far_loc = 3762
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=220
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 320
+best_so_far_loc = 3761
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=208
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 321
+best_so_far_loc = 3760
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=207
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 322
+best_so_far_loc = 3759
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=233
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 323
+best_so_far_loc = 3758
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=215
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 324
+best_so_far_loc = 3757
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=233
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 325
+best_so_far_loc = 3756
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=207
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 326
+best_so_far_loc = 3755
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=191
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 327
+best_so_far_loc = 3754
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=179
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 328
+best_so_far_loc = 3753
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=235
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 329
+best_so_far_loc = 3752
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=190
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 330
+best_so_far_loc = 3751
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=234
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 331
+best_so_far_loc = 3750
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=239
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 332
+best_so_far_loc = 3749
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=205
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 333
+best_so_far_loc = 3748
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=202
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 334
+best_so_far_loc = 3747
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=232
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 335
+best_so_far_loc = 3746
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=203
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 336
+best_so_far_loc = 3745
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=229
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 337
+best_so_far_loc = 3744
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=234
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 338
+best_so_far_loc = 3743
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=26
+ExeTime_offline=217
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 339
+best_so_far_loc = 3742
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=26
+ExeTime_offline=208
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 340
+best_so_far_loc = 3741
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=227
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 341
+best_so_far_loc = 3740
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=208
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 342
+best_so_far_loc = 3739
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=26
+ExeTime_offline=254
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 343
+best_so_far_loc = 3738
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=215
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 344
+best_so_far_loc = 3737
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=25
+ExeTime_offline=217
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 345
+best_so_far_loc = 3736
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=220
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 346
+best_so_far_loc = 3735
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=25
+ExeTime_offline=202
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 347
+best_so_far_loc = 3734
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=26
+ExeTime_offline=253
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 348
+best_so_far_loc = 3733
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=26
+ExeTime_offline=215
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 349
+best_so_far_loc = 3732
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=26
+ExeTime_offline=236
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 350
+best_so_far_loc = 3731
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=209
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 351
+best_so_far_loc = 3730
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=25
+ExeTime_offline=207
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 352
+best_so_far_loc = 3729
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=25
+ExeTime_offline=200
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 353
+best_so_far_loc = 3728
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=25
+ExeTime_offline=220
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 354
+best_so_far_loc = 3727
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=24
+ExeTime_offline=244
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 355
+best_so_far_loc = 3726
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=25
+ExeTime_offline=257
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 356
+best_so_far_loc = 3725
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=25
+ExeTime_offline=211
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 357
+best_so_far_loc = 3724
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=25
+ExeTime_offline=224
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 358
+best_so_far_loc = 3723
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=204
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 359
+best_so_far_loc = 3722
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=215
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 360
+best_so_far_loc = 3721
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=206
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 361
+best_so_far_loc = 3720
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=36
+ExeTime_offline=197
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 362
+best_so_far_loc = 3719
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=209
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 363
+best_so_far_loc = 3718
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=231
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 364
+best_so_far_loc = 3717
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=248
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 365
+best_so_far_loc = 3716
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=276
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 366
+best_so_far_loc = 3715
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=247
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 367
+best_so_far_loc = 3714
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=253
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 368
+best_so_far_loc = 3713
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=219
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 369
+best_so_far_loc = 3712
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=201
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 370
+best_so_far_loc = 3711
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=232
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 371
+best_so_far_loc = 3710
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=237
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 372
+best_so_far_loc = 3709
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=251
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 373
+best_so_far_loc = 3708
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=214
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 374
+best_so_far_loc = 3707
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=245
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 375
+best_so_far_loc = 3706
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=197
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 376
+best_so_far_loc = 3705
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=256
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 377
+best_so_far_loc = 3704
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=237
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 378
+best_so_far_loc = 3703
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=191
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 379
+best_so_far_loc = 3702
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=236
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 380
+best_so_far_loc = 3701
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=205
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 381
+best_so_far_loc = 3700
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=26
+ExeTime_offline=198
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 382
+best_so_far_loc = 3699
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=256
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 383
+best_so_far_loc = 3698
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=210
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 384
+best_so_far_loc = 3697
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=216
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 385
+best_so_far_loc = 3696
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=238
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 386
+best_so_far_loc = 3695
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=25
+ExeTime_offline=214
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 387
+best_so_far_loc = 3694
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=26
+ExeTime_offline=237
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 388
+best_so_far_loc = 3693
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=26
+ExeTime_offline=209
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 389
+best_so_far_loc = 3692
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=26
+ExeTime_offline=202
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 390
+best_so_far_loc = 3691
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=26
+ExeTime_offline=213
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 391
+best_so_far_loc = 3690
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=25
+ExeTime_offline=236
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 392
+best_so_far_loc = 3689
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=25
+ExeTime_offline=230
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 393
+best_so_far_loc = 3688
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=226
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 394
+best_so_far_loc = 3687
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=25
+ExeTime_offline=208
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 395
+best_so_far_loc = 3686
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=21
+ExeTime_offline=210
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 396
+best_so_far_loc = 3685
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=20
+ExeTime_offline=213
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 397
+best_so_far_loc = 3684
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=19
+ExeTime_offline=220
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 398
+best_so_far_loc = 3683
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=19
+ExeTime_offline=204
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 399
+best_so_far_loc = 3682
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=13
+ExeTime_offline=204
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 400
+best_so_far_loc = 3681
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=12
+ExeTime_offline=249
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 401
+best_so_far_loc = 3680
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=13
+ExeTime_offline=241
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 402
+best_so_far_loc = 3679
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=10
+ExeTime_offline=212
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 403
+best_so_far_loc = 3678
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=10
+ExeTime_offline=200
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 404
+best_so_far_loc = 3677
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=10
+ExeTime_offline=195
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 405
+best_so_far_loc = 3676
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=10
+ExeTime_offline=220
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 406
+best_so_far_loc = 3675
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=10
+ExeTime_offline=218
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 407
+best_so_far_loc = 3674
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=10
+ExeTime_offline=221
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 408
+best_so_far_loc = 3673
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=10
+ExeTime_offline=220
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 409
+best_so_far_loc = 3672
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=10
+ExeTime_offline=224
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 410
+best_so_far_loc = 3671
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=11
+ExeTime_offline=245
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 411
+best_so_far_loc = 3670
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=9
+ExeTime_offline=212
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 412
+best_so_far_loc = 3669
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=8
+ExeTime_offline=215
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 413
+best_so_far_loc = 3668
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=8
+ExeTime_offline=202
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 414
+best_so_far_loc = 3667
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=7
+ExeTime_offline=206
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 415
+best_so_far_loc = 3666
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=7
+ExeTime_offline=203
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 416
+best_so_far_loc = 3665
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=7
+ExeTime_offline=222
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 417
+best_so_far_loc = 3664
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=7
+ExeTime_offline=238
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 418
+best_so_far_loc = 3663
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=7
+ExeTime_offline=197
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 419
+best_so_far_loc = 3662
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=8
+ExeTime_offline=218
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 420
+best_so_far_loc = 3661
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=8
+ExeTime_offline=218
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 421
+best_so_far_loc = 3660
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=7
+ExeTime_offline=269
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 422
+best_so_far_loc = 3659
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=7
+ExeTime_offline=243
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 423
+best_so_far_loc = 3658
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=7
+ExeTime_offline=193
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 424
+best_so_far_loc = 3657
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=8
+ExeTime_offline=219
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 425
+best_so_far_loc = 3656
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=7
+ExeTime_offline=216
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 426
+best_so_far_loc = 3655
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=7
+ExeTime_offline=228
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 427
+best_so_far_loc = 3654
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=7
+ExeTime_offline=214
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 428
+best_so_far_loc = 3653
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=7
+ExeTime_offline=238
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 429
+best_so_far_loc = 3652
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=7
+ExeTime_offline=250
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 430
+best_so_far_loc = 3651
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=7
+ExeTime_offline=238
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 431
+best_so_far_loc = 3650
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=12
+ExeTime_offline=226
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 432
+best_so_far_loc = 3649
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=7
+ExeTime_offline=206
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 433
+best_so_far_loc = 3648
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=7
+ExeTime_offline=237
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 434
+best_so_far_loc = 3647
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=7
+ExeTime_offline=229
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 435
+best_so_far_loc = 3646
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=7
+ExeTime_offline=217
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 436
+best_so_far_loc = 3645
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=7
+ExeTime_offline=215
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 437
+best_so_far_loc = 3644
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=8
+ExeTime_offline=245
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 438
+best_so_far_loc = 3643
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=9
+ExeTime_offline=212
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 439
+best_so_far_loc = 3642
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=10
+ExeTime_offline=204
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 440
+best_so_far_loc = 3641
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=14
+ExeTime_offline=263
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 441
+best_so_far_loc = 3640
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=10
+ExeTime_offline=209
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 442
+best_so_far_loc = 3639
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=11
+ExeTime_offline=228
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 443
+best_so_far_loc = 3638
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=9
+ExeTime_offline=206
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 444
+best_so_far_loc = 3637
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=10
+ExeTime_offline=209
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 445
+best_so_far_loc = 3636
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=15
+ExeTime_offline=207
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 446
+best_so_far_loc = 3635
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=20
+ExeTime_offline=202
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 447
+best_so_far_loc = 3634
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=23
+ExeTime_offline=205
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 448
+best_so_far_loc = 3633
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=223
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 449
+best_so_far_loc = 3632
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=228
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 450
+best_so_far_loc = 3631
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=221
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 451
+best_so_far_loc = 3630
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=190
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 452
+best_so_far_loc = 3629
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=198
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 453
+best_so_far_loc = 3628
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=199
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 454
+best_so_far_loc = 3627
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=214
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 455
+best_so_far_loc = 3626
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=34
+ExeTime_offline=219
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 456
+best_so_far_loc = 3625
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=238
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 457
+best_so_far_loc = 3624
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=237
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 458
+best_so_far_loc = 3623
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=220
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 459
+best_so_far_loc = 3622
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=209
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 460
+best_so_far_loc = 3621
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=223
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 461
+best_so_far_loc = 3620
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=216
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 462
+best_so_far_loc = 3619
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=233
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 463
+best_so_far_loc = 3618
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=233
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 464
+best_so_far_loc = 3617
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=195
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 465
+best_so_far_loc = 3616
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=35
+ExeTime_offline=197
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 466
+best_so_far_loc = 3615
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=201
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 467
+best_so_far_loc = 3614
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=234
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 468
+best_so_far_loc = 3613
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=211
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 469
+best_so_far_loc = 3612
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=213
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 470
+best_so_far_loc = 3611
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=193
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 471
+best_so_far_loc = 3610
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=34
+ExeTime_offline=198
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 472
+best_so_far_loc = 3609
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=200
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 473
+best_so_far_loc = 3608
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=262
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 474
+best_so_far_loc = 3607
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=191
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 475
+best_so_far_loc = 3606
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=225
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 476
+best_so_far_loc = 3605
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=183
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 477
+best_so_far_loc = 3604
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=34
+ExeTime_offline=187
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 478
+best_so_far_loc = 3603
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=35
+ExeTime_offline=220
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 479
+best_so_far_loc = 3602
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=248
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 480
+best_so_far_loc = 3601
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=234
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 481
+best_so_far_loc = 3600
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=211
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 482
+best_so_far_loc = 3599
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=223
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 483
+best_so_far_loc = 3598
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=225
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 484
+best_so_far_loc = 3597
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=200
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 485
+best_so_far_loc = 3596
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=200
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 486
+best_so_far_loc = 3595
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=181
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 487
+best_so_far_loc = 3594
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=242
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 488
+best_so_far_loc = 3593
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=26
+ExeTime_offline=250
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 489
+best_so_far_loc = 3592
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=238
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 490
+best_so_far_loc = 3591
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=205
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 491
+best_so_far_loc = 3590
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=211
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 492
+best_so_far_loc = 3589
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=26
+ExeTime_offline=200
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 493
+best_so_far_loc = 3588
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=203
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 494
+best_so_far_loc = 3587
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=25
+ExeTime_offline=217
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 495
+best_so_far_loc = 3586
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=228
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 496
+best_so_far_loc = 3585
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=25
+ExeTime_offline=192
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 497
+best_so_far_loc = 3584
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=24
+ExeTime_offline=214
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 498
+best_so_far_loc = 3583
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=24
+ExeTime_offline=272
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 499
+best_so_far_loc = 3582
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=24
+ExeTime_offline=282
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 500
+best_so_far_loc = 3581
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=24
+ExeTime_offline=273
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 501
+best_so_far_loc = 3580
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=23
+ExeTime_offline=219
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 502
+best_so_far_loc = 3579
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=23
+ExeTime_offline=230
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 503
+best_so_far_loc = 3578
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=23
+ExeTime_offline=230
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 504
+best_so_far_loc = 3577
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=22
+ExeTime_offline=197
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 505
+best_so_far_loc = 3576
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=22
+ExeTime_offline=202
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 506
+best_so_far_loc = 3575
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=22
+ExeTime_offline=199
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 507
+best_so_far_loc = 3574
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=23
+ExeTime_offline=212
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 508
+best_so_far_loc = 3573
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=22
+ExeTime_offline=228
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 509
+best_so_far_loc = 3572
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=21
+ExeTime_offline=220
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 510
+best_so_far_loc = 3571
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=24
+ExeTime_offline=219
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 511
+best_so_far_loc = 3570
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=23
+ExeTime_offline=228
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 512
+best_so_far_loc = 3569
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=22
+ExeTime_offline=253
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 513
+best_so_far_loc = 3568
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=23
+ExeTime_offline=232
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 514
+best_so_far_loc = 3567
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=25
+ExeTime_offline=249
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 515
+best_so_far_loc = 3566
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=23
+ExeTime_offline=223
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 516
+best_so_far_loc = 3565
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=22
+ExeTime_offline=255
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 517
+best_so_far_loc = 3564
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=22
+ExeTime_offline=233
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 518
+best_so_far_loc = 3563
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=26
+ExeTime_offline=237
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 519
+best_so_far_loc = 3562
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=23
+ExeTime_offline=198
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 520
+best_so_far_loc = 3561
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=23
+ExeTime_offline=211
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 521
+best_so_far_loc = 3560
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=24
+ExeTime_offline=236
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 522
+best_so_far_loc = 3559
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=24
+ExeTime_offline=226
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 523
+best_so_far_loc = 3558
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=24
+ExeTime_offline=180
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 524
+best_so_far_loc = 3557
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=24
+ExeTime_offline=220
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 525
+best_so_far_loc = 3556
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=218
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 526
+best_so_far_loc = 3555
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=25
+ExeTime_offline=239
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 527
+best_so_far_loc = 3554
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=222
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 528
+best_so_far_loc = 3553
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=26
+ExeTime_offline=251
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 529
+best_so_far_loc = 3552
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=260
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 530
+best_so_far_loc = 3551
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=26
+ExeTime_offline=276
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 531
+best_so_far_loc = 3550
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=26
+ExeTime_offline=221
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 532
+best_so_far_loc = 3549
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=26
+ExeTime_offline=230
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 533
+best_so_far_loc = 3548
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=198
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 534
+best_so_far_loc = 3547
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=220
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 535
+best_so_far_loc = 3546
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=233
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 536
+best_so_far_loc = 3545
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=224
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 537
+best_so_far_loc = 3544
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=204
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 538
+best_so_far_loc = 3543
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=243
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 539
+best_so_far_loc = 3542
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=226
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 540
+best_so_far_loc = 3541
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=239
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 541
+best_so_far_loc = 3540
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=232
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 542
+best_so_far_loc = 3539
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=255
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 543
+best_so_far_loc = 3538
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=227
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 544
+best_so_far_loc = 3537
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=250
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 545
+best_so_far_loc = 3536
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=234
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 546
+best_so_far_loc = 3535
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=35
+ExeTime_offline=233
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 547
+best_so_far_loc = 3534
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=229
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 548
+best_so_far_loc = 3533
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=206
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 549
+best_so_far_loc = 3532
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=218
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 550
+best_so_far_loc = 3531
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=192
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 551
+best_so_far_loc = 3530
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=35
+ExeTime_offline=202
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 552
+best_so_far_loc = 3529
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=34
+ExeTime_offline=222
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 553
+best_so_far_loc = 3528
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=255
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 554
+best_so_far_loc = 3527
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=237
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 555
+best_so_far_loc = 3526
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=34
+ExeTime_offline=207
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 556
+best_so_far_loc = 3525
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=228
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 557
+best_so_far_loc = 3524
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=275
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 558
+best_so_far_loc = 3523
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=247
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 559
+best_so_far_loc = 3522
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=198
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 560
+best_so_far_loc = 3521
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=227
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 561
+best_so_far_loc = 3520
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=233
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 562
+best_so_far_loc = 3519
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=212
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 563
+best_so_far_loc = 3518
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=37
+ExeTime_offline=207
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 564
+best_so_far_loc = 3517
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=35
+ExeTime_offline=237
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 565
+best_so_far_loc = 3516
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=214
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 566
+best_so_far_loc = 3515
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=253
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 567
+best_so_far_loc = 3514
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=229
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 568
+best_so_far_loc = 3513
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=229
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 569
+best_so_far_loc = 3512
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=260
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 570
+best_so_far_loc = 3511
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=216
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 571
+best_so_far_loc = 3510
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=35
+ExeTime_offline=225
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 572
+best_so_far_loc = 3509
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=217
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 573
+best_so_far_loc = 3508
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=272
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 574
+best_so_far_loc = 3507
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=271
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 575
+best_so_far_loc = 3506
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=235
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 576
+best_so_far_loc = 3505
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=229
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 577
+best_so_far_loc = 3504
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=257
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 578
+best_so_far_loc = 3503
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=216
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 579
+best_so_far_loc = 3502
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=220
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 580
+best_so_far_loc = 3501
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=224
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 581
+best_so_far_loc = 3500
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=197
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 582
+best_so_far_loc = 3499
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=212
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 583
+best_so_far_loc = 3498
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=206
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 584
+best_so_far_loc = 3497
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=239
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 585
+best_so_far_loc = 3496
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=237
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 586
+best_so_far_loc = 3495
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=206
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 587
+best_so_far_loc = 3494
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=204
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 588
+best_so_far_loc = 3493
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=222
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 589
+best_so_far_loc = 3492
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=257
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 590
+best_so_far_loc = 3491
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=207
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 591
+best_so_far_loc = 3490
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=221
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 592
+best_so_far_loc = 3489
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=41
+ExeTime_offline=246
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 593
+best_so_far_loc = 3488
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=236
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 594
+best_so_far_loc = 3487
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=225
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 595
+best_so_far_loc = 3486
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=197
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 596
+best_so_far_loc = 3485
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=221
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 597
+best_so_far_loc = 3484
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=35
+ExeTime_offline=195
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 598
+best_so_far_loc = 3483
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=238
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 599
+best_so_far_loc = 3482
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=242
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 600
+best_so_far_loc = 3481
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=270
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 601
+best_so_far_loc = 3480
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=218
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 602
+best_so_far_loc = 3479
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=243
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 603
+best_so_far_loc = 3478
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=209
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 604
+best_so_far_loc = 3477
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=216
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 605
+best_so_far_loc = 3476
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=215
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 606
+best_so_far_loc = 3475
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=239
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 607
+best_so_far_loc = 3474
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=222
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 608
+best_so_far_loc = 3473
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=222
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 609
+best_so_far_loc = 3472
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=205
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 610
+best_so_far_loc = 3471
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=255
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 611
+best_so_far_loc = 3470
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=213
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 612
+best_so_far_loc = 3469
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=295
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 613
+best_so_far_loc = 3468
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=209
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 614
+best_so_far_loc = 3467
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=212
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 615
+best_so_far_loc = 3466
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=251
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 616
+best_so_far_loc = 3465
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=34
+ExeTime_offline=231
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 617
+best_so_far_loc = 3464
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=223
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 618
+best_so_far_loc = 3463
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=322
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 619
+best_so_far_loc = 3462
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=207
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 620
+best_so_far_loc = 3461
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=219
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 621
+best_so_far_loc = 3460
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=215
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 622
+best_so_far_loc = 3459
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=215
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 623
+best_so_far_loc = 3458
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=215
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 624
+best_so_far_loc = 3457
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=218
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 625
+best_so_far_loc = 3456
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=206
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 626
+best_so_far_loc = 3455
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=247
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 627
+best_so_far_loc = 3454
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=245
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 628
+best_so_far_loc = 3453
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=34
+ExeTime_offline=231
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 629
+best_so_far_loc = 3452
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=244
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 630
+best_so_far_loc = 3451
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=232
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 631
+best_so_far_loc = 3450
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=201
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 632
+best_so_far_loc = 3449
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=34
+ExeTime_offline=210
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 633
+best_so_far_loc = 3448
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=34
+ExeTime_offline=225
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 634
+best_so_far_loc = 3447
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=222
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 635
+best_so_far_loc = 3446
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=29
+ExeTime_offline=225
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 636
+best_so_far_loc = 3445
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=231
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 637
+best_so_far_loc = 3444
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=36
+ExeTime_offline=200
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 638
+best_so_far_loc = 3443
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=235
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 639
+best_so_far_loc = 3442
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=211
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 640
+best_so_far_loc = 3441
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=236
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 641
+best_so_far_loc = 3440
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=35
+ExeTime_offline=214
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 642
+best_so_far_loc = 3439
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=34
+ExeTime_offline=229
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 643
+best_so_far_loc = 3438
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=284
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 644
+best_so_far_loc = 3437
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=240
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 645
+best_so_far_loc = 3436
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=205
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 646
+best_so_far_loc = 3435
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=202
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 647
+best_so_far_loc = 3434
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=244
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 648
+best_so_far_loc = 3433
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=256
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 649
+best_so_far_loc = 3432
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=214
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 650
+best_so_far_loc = 3431
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=239
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 651
+best_so_far_loc = 3430
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=231
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 652
+best_so_far_loc = 3429
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=226
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 653
+best_so_far_loc = 3428
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=35
+ExeTime_offline=239
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 654
+best_so_far_loc = 3427
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=236
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 655
+best_so_far_loc = 3426
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=279
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 656
+best_so_far_loc = 3425
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=259
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 657
+best_so_far_loc = 3424
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=232
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 658
+best_so_far_loc = 3423
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=243
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 659
+best_so_far_loc = 3422
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=33
+ExeTime_offline=243
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 660
+best_so_far_loc = 3421
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=219
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 661
+best_so_far_loc = 3420
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=255
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 662
+best_so_far_loc = 3419
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=35
+ExeTime_offline=219
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 663
+best_so_far_loc = 3418
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=242
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 664
+best_so_far_loc = 3417
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=249
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 665
+best_so_far_loc = 3416
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=34
+ExeTime_offline=226
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 666
+best_so_far_loc = 3415
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=239
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 667
+best_so_far_loc = 3414
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=221
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 668
+best_so_far_loc = 3413
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=34
+ExeTime_offline=247
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 669
+best_so_far_loc = 3412
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=35
+ExeTime_offline=212
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 670
+best_so_far_loc = 3411
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=214
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 671
+best_so_far_loc = 3410
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=30
+ExeTime_offline=235
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 672
+best_so_far_loc = 3409
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=232
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 673
+best_so_far_loc = 3408
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=32
+ExeTime_offline=237
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 674
+best_so_far_loc = 3407
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=212
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 675
+best_so_far_loc = 3406
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=221
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 676
+best_so_far_loc = 3405
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=245
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 677
+best_so_far_loc = 3404
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=209
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 678
+best_so_far_loc = 3403
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=26
+ExeTime_offline=233
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 679
+best_so_far_loc = 3402
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=231
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 680
+best_so_far_loc = 3401
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=24
+ExeTime_offline=263
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 681
+best_so_far_loc = 3400
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=25
+ExeTime_offline=286
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 682
+best_so_far_loc = 3399
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=25
+ExeTime_offline=247
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 683
+best_so_far_loc = 3398
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=24
+ExeTime_offline=226
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 684
+best_so_far_loc = 3397
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=27
+ExeTime_offline=244
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 685
+best_so_far_loc = 3396
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=28
+ExeTime_offline=216
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 686
+best_so_far_loc = 3395
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=31
+ExeTime_offline=282
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 687
+best_so_far_loc = 3394
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=25
+ExeTime_offline=232
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 688
+best_so_far_loc = 3393
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=25
+ExeTime_offline=226
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 689
+best_so_far_loc = 3390
+best_so_far_dist = 1.11977676346672
+ExeTime_Online=27
+ExeTime_offline=221
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 690
+best_so_far_loc = 3389
+best_so_far_dist = 1.11977676346672
+ExeTime_Online=24
+ExeTime_offline=265
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 691
+best_so_far_loc = 3390
+best_so_far_dist = 1.12008928215567
+ExeTime_Online=26
+ExeTime_offline=209
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 692
+best_so_far_loc = 3390
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=26
+ExeTime_offline=221
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 693
+best_so_far_loc = 3389
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=28
+ExeTime_offline=202
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 694
+best_so_far_loc = 3388
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=246
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 695
+best_so_far_loc = 3387
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=24
+ExeTime_offline=229
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 696
+best_so_far_loc = 3386
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=23
+ExeTime_offline=215
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 697
+best_so_far_loc = 3385
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=24
+ExeTime_offline=266
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 698
+best_so_far_loc = 3384
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=28
+ExeTime_offline=261
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 699
+best_so_far_loc = 3383
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=25
+ExeTime_offline=214
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 700
+best_so_far_loc = 3382
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=24
+ExeTime_offline=225
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 701
+best_so_far_loc = 3381
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=23
+ExeTime_offline=200
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 702
+best_so_far_loc = 3380
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=24
+ExeTime_offline=210
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 703
+best_so_far_loc = 3379
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=27
+ExeTime_offline=233
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 704
+best_so_far_loc = 3378
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=24
+ExeTime_offline=214
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 705
+best_so_far_loc = 3377
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=24
+ExeTime_offline=234
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 706
+best_so_far_loc = 3376
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=26
+ExeTime_offline=281
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 707
+best_so_far_loc = 3375
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=28
+ExeTime_offline=232
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 708
+best_so_far_loc = 3374
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=259
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 709
+best_so_far_loc = 3373
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=225
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 710
+best_so_far_loc = 3372
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=36
+ExeTime_offline=206
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 711
+best_so_far_loc = 3371
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=33
+ExeTime_offline=241
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 712
+best_so_far_loc = 3370
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=34
+ExeTime_offline=221
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 713
+best_so_far_loc = 3369
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=212
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 714
+best_so_far_loc = 3368
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=33
+ExeTime_offline=242
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 715
+best_so_far_loc = 3367
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=223
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 716
+best_so_far_loc = 3366
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=29
+ExeTime_offline=229
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 717
+best_so_far_loc = 3365
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=199
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 718
+best_so_far_loc = 3364
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=222
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 719
+best_so_far_loc = 3363
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=33
+ExeTime_offline=208
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 720
+best_so_far_loc = 3362
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=250
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 721
+best_so_far_loc = 3361
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=210
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 722
+best_so_far_loc = 3360
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=206
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 723
+best_so_far_loc = 3359
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=303
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 724
+best_so_far_loc = 3358
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=29
+ExeTime_offline=224
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 725
+best_so_far_loc = 3357
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=29
+ExeTime_offline=225
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 726
+best_so_far_loc = 3356
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=267
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 727
+best_so_far_loc = 3355
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=222
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 728
+best_so_far_loc = 3354
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=212
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 729
+best_so_far_loc = 3353
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=29
+ExeTime_offline=242
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 730
+best_so_far_loc = 3352
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=33
+ExeTime_offline=248
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 731
+best_so_far_loc = 3351
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=235
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 732
+best_so_far_loc = 3350
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=253
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 733
+best_so_far_loc = 3349
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=33
+ExeTime_offline=233
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 734
+best_so_far_loc = 3348
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=237
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 735
+best_so_far_loc = 3347
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=29
+ExeTime_offline=217
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 736
+best_so_far_loc = 3346
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=29
+ExeTime_offline=221
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 737
+best_so_far_loc = 3345
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=37
+ExeTime_offline=228
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 738
+best_so_far_loc = 3344
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=28
+ExeTime_offline=238
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 739
+best_so_far_loc = 3343
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=28
+ExeTime_offline=220
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 740
+best_so_far_loc = 3342
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=26
+ExeTime_offline=278
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 741
+best_so_far_loc = 3341
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=27
+ExeTime_offline=231
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 742
+best_so_far_loc = 3340
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=24
+ExeTime_offline=229
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 743
+best_so_far_loc = 3339
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=23
+ExeTime_offline=234
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 744
+best_so_far_loc = 3338
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=21
+ExeTime_offline=200
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 745
+best_so_far_loc = 3337
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=21
+ExeTime_offline=214
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 746
+best_so_far_loc = 3336
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=19
+ExeTime_offline=249
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 747
+best_so_far_loc = 3335
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=17
+ExeTime_offline=247
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 748
+best_so_far_loc = 3334
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=13
+ExeTime_offline=264
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 749
+best_so_far_loc = 3333
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=10
+ExeTime_offline=236
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 750
+best_so_far_loc = 3332
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=11
+ExeTime_offline=199
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 751
+best_so_far_loc = 3331
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=12
+ExeTime_offline=236
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 752
+best_so_far_loc = 3330
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=10
+ExeTime_offline=222
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 753
+best_so_far_loc = 3329
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=12
+ExeTime_offline=215
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 754
+best_so_far_loc = 3328
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=11
+ExeTime_offline=228
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 755
+best_so_far_loc = 3327
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=11
+ExeTime_offline=231
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 756
+best_so_far_loc = 3326
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=11
+ExeTime_offline=228
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 757
+best_so_far_loc = 3325
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=11
+ExeTime_offline=254
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 758
+best_so_far_loc = 3324
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=11
+ExeTime_offline=225
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 759
+best_so_far_loc = 3323
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=14
+ExeTime_offline=258
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 760
+best_so_far_loc = 3322
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=11
+ExeTime_offline=259
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 761
+best_so_far_loc = 3321
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=11
+ExeTime_offline=239
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 762
+best_so_far_loc = 3320
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=10
+ExeTime_offline=242
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 763
+best_so_far_loc = 3319
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=10
+ExeTime_offline=221
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 764
+best_so_far_loc = 3318
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=10
+ExeTime_offline=224
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 765
+best_so_far_loc = 3317
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=9
+ExeTime_offline=222
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 766
+best_so_far_loc = 3316
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=9
+ExeTime_offline=227
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 767
+best_so_far_loc = 3315
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=9
+ExeTime_offline=227
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 768
+best_so_far_loc = 3314
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=9
+ExeTime_offline=216
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 769
+best_so_far_loc = 3313
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=10
+ExeTime_offline=220
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 770
+best_so_far_loc = 3312
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=14
+ExeTime_offline=221
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 771
+best_so_far_loc = 3311
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=14
+ExeTime_offline=213
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 772
+best_so_far_loc = 3310
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=15
+ExeTime_offline=213
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 773
+best_so_far_loc = 3309
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=14
+ExeTime_offline=192
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 774
+best_so_far_loc = 3308
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=14
+ExeTime_offline=234
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 775
+best_so_far_loc = 3307
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=14
+ExeTime_offline=226
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 776
+best_so_far_loc = 3306
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=13
+ExeTime_offline=220
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 777
+best_so_far_loc = 3305
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=13
+ExeTime_offline=238
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 778
+best_so_far_loc = 3304
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=11
+ExeTime_offline=268
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 779
+best_so_far_loc = 3303
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=10
+ExeTime_offline=245
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 780
+best_so_far_loc = 3302
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=10
+ExeTime_offline=252
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 781
+best_so_far_loc = 3301
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=12
+ExeTime_offline=215
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 782
+best_so_far_loc = 3300
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=11
+ExeTime_offline=228
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 783
+best_so_far_loc = 3299
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=9
+ExeTime_offline=233
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 784
+best_so_far_loc = 3298
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=9
+ExeTime_offline=202
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 785
+best_so_far_loc = 3297
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=9
+ExeTime_offline=227
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 786
+best_so_far_loc = 3296
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=9
+ExeTime_offline=217
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 787
+best_so_far_loc = 3295
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=9
+ExeTime_offline=215
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 788
+best_so_far_loc = 3294
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=9
+ExeTime_offline=197
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 789
+best_so_far_loc = 3293
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=9
+ExeTime_offline=220
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 790
+best_so_far_loc = 3292
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=9
+ExeTime_offline=205
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 791
+best_so_far_loc = 3291
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=9
+ExeTime_offline=250
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 792
+best_so_far_loc = 3290
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=14
+ExeTime_offline=244
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 793
+best_so_far_loc = 3289
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=17
+ExeTime_offline=237
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 794
+best_so_far_loc = 3288
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=25
+ExeTime_offline=246
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 795
+best_so_far_loc = 3287
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=238
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 796
+best_so_far_loc = 3286
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=203
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 797
+best_so_far_loc = 3285
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=230
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 798
+best_so_far_loc = 3284
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=217
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 799
+best_so_far_loc = 3283
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=33
+ExeTime_offline=230
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 800
+best_so_far_loc = 3282
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=35
+ExeTime_offline=220
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 801
+best_so_far_loc = 3281
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=207
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 802
+best_so_far_loc = 3280
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=247
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 803
+best_so_far_loc = 3279
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=220
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 804
+best_so_far_loc = 3278
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=33
+ExeTime_offline=223
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 805
+best_so_far_loc = 3277
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=38
+ExeTime_offline=204
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 806
+best_so_far_loc = 3276
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=34
+ExeTime_offline=226
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 807
+best_so_far_loc = 3275
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=243
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 808
+best_so_far_loc = 3274
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=250
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 809
+best_so_far_loc = 3273
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=216
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 810
+best_so_far_loc = 3272
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=210
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 811
+best_so_far_loc = 3271
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=207
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 812
+best_so_far_loc = 3270
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=217
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 813
+best_so_far_loc = 3269
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=221
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 814
+best_so_far_loc = 3268
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=229
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 815
+best_so_far_loc = 3267
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=34
+ExeTime_offline=214
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 816
+best_so_far_loc = 3266
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=226
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 817
+best_so_far_loc = 3265
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=232
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 818
+best_so_far_loc = 3264
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=224
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 819
+best_so_far_loc = 3263
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=34
+ExeTime_offline=225
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 820
+best_so_far_loc = 3262
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=253
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 821
+best_so_far_loc = 3261
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=270
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 822
+best_so_far_loc = 3260
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=33
+ExeTime_offline=249
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 823
+best_so_far_loc = 3259
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=33
+ExeTime_offline=215
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 824
+best_so_far_loc = 3258
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=213
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 825
+best_so_far_loc = 3257
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=274
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 826
+best_so_far_loc = 3256
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=227
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 827
+best_so_far_loc = 3255
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=29
+ExeTime_offline=237
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 828
+best_so_far_loc = 3254
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=29
+ExeTime_offline=229
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 829
+best_so_far_loc = 3253
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=218
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 830
+best_so_far_loc = 3252
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=28
+ExeTime_offline=257
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 831
+best_so_far_loc = 3251
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=28
+ExeTime_offline=215
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 832
+best_so_far_loc = 3250
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=27
+ExeTime_offline=215
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 833
+best_so_far_loc = 3249
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=222
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 834
+best_so_far_loc = 3248
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=26
+ExeTime_offline=202
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 835
+best_so_far_loc = 3247
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=29
+ExeTime_offline=201
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 836
+best_so_far_loc = 3246
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=26
+ExeTime_offline=205
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 837
+best_so_far_loc = 3245
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=26
+ExeTime_offline=227
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 838
+best_so_far_loc = 3244
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=26
+ExeTime_offline=216
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 839
+best_so_far_loc = 3243
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=26
+ExeTime_offline=209
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 840
+best_so_far_loc = 3242
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=27
+ExeTime_offline=206
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 841
+best_so_far_loc = 3241
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=25
+ExeTime_offline=218
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 842
+best_so_far_loc = 3240
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=25
+ExeTime_offline=216
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 843
+best_so_far_loc = 3239
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=25
+ExeTime_offline=285
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 844
+best_so_far_loc = 3238
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=29
+ExeTime_offline=252
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 845
+best_so_far_loc = 3237
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=24
+ExeTime_offline=240
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 846
+best_so_far_loc = 3236
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=24
+ExeTime_offline=229
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 847
+best_so_far_loc = 3235
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=25
+ExeTime_offline=211
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 848
+best_so_far_loc = 3234
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=26
+ExeTime_offline=220
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 849
+best_so_far_loc = 3233
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=24
+ExeTime_offline=231
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 850
+best_so_far_loc = 3232
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=23
+ExeTime_offline=260
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 851
+best_so_far_loc = 3231
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=25
+ExeTime_offline=248
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 852
+best_so_far_loc = 3230
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=26
+ExeTime_offline=247
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 853
+best_so_far_loc = 3229
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=24
+ExeTime_offline=256
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 854
+best_so_far_loc = 3228
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=24
+ExeTime_offline=232
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 855
+best_so_far_loc = 3227
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=25
+ExeTime_offline=244
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 856
+best_so_far_loc = 3226
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=23
+ExeTime_offline=277
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 857
+best_so_far_loc = 3225
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=22
+ExeTime_offline=232
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 858
+best_so_far_loc = 3224
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=26
+ExeTime_offline=235
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 859
+best_so_far_loc = 3223
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=23
+ExeTime_offline=212
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 860
+best_so_far_loc = 3222
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=24
+ExeTime_offline=215
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 861
+best_so_far_loc = 3221
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=24
+ExeTime_offline=212
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 862
+best_so_far_loc = 3220
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=24
+ExeTime_offline=213
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 863
+best_so_far_loc = 3219
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=26
+ExeTime_offline=223
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 864
+best_so_far_loc = 3218
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=26
+ExeTime_offline=235
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 865
+best_so_far_loc = 3217
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=24
+ExeTime_offline=224
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 866
+best_so_far_loc = 3216
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=24
+ExeTime_offline=302
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 867
+best_so_far_loc = 3215
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=25
+ExeTime_offline=231
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 868
+best_so_far_loc = 3214
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=25
+ExeTime_offline=223
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 869
+best_so_far_loc = 3213
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=25
+ExeTime_offline=228
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 870
+best_so_far_loc = 3212
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=25
+ExeTime_offline=283
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 871
+best_so_far_loc = 3211
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=26
+ExeTime_offline=202
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 872
+best_so_far_loc = 3210
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=25
+ExeTime_offline=238
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 873
+best_so_far_loc = 3209
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=26
+ExeTime_offline=206
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 874
+best_so_far_loc = 3208
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=26
+ExeTime_offline=210
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 875
+best_so_far_loc = 3207
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=27
+ExeTime_offline=210
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 876
+best_so_far_loc = 3206
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=240
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 877
+best_so_far_loc = 3205
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=27
+ExeTime_offline=228
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 878
+best_so_far_loc = 3204
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=231
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 879
+best_so_far_loc = 3203
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=28
+ExeTime_offline=242
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 880
+best_so_far_loc = 3202
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=33
+ExeTime_offline=232
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 881
+best_so_far_loc = 3201
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=29
+ExeTime_offline=242
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 882
+best_so_far_loc = 3200
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=28
+ExeTime_offline=264
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 883
+best_so_far_loc = 3199
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=33
+ExeTime_offline=268
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 884
+best_so_far_loc = 3198
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=243
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 885
+best_so_far_loc = 3197
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=199
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 886
+best_so_far_loc = 3196
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=247
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 887
+best_so_far_loc = 3195
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=198
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 888
+best_so_far_loc = 3194
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=209
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 889
+best_so_far_loc = 3193
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=33
+ExeTime_offline=258
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 890
+best_so_far_loc = 3192
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=33
+ExeTime_offline=253
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 891
+best_so_far_loc = 3191
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=227
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 892
+best_so_far_loc = 3190
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=232
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 893
+best_so_far_loc = 3189
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=34
+ExeTime_offline=242
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 894
+best_so_far_loc = 3188
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=209
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 895
+best_so_far_loc = 3187
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=246
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 896
+best_so_far_loc = 3186
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=216
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 897
+best_so_far_loc = 3185
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=228
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 898
+best_so_far_loc = 3184
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=34
+ExeTime_offline=248
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 899
+best_so_far_loc = 3183
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=33
+ExeTime_offline=227
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 900
+best_so_far_loc = 3182
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=233
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 901
+best_so_far_loc = 3181
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=42
+ExeTime_offline=266
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 902
+best_so_far_loc = 3180
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=252
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 903
+best_so_far_loc = 3179
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=271
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 904
+best_so_far_loc = 3178
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=33
+ExeTime_offline=264
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 905
+best_so_far_loc = 3177
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=275
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 906
+best_so_far_loc = 3176
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=33
+ExeTime_offline=220
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 907
+best_so_far_loc = 3175
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=280
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 908
+best_so_far_loc = 3174
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=208
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 909
+best_so_far_loc = 3173
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=36
+ExeTime_offline=227
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 910
+best_so_far_loc = 3172
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=213
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 911
+best_so_far_loc = 3171
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=229
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 912
+best_so_far_loc = 3170
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=231
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 913
+best_so_far_loc = 3169
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=33
+ExeTime_offline=266
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 914
+best_so_far_loc = 3168
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=265
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 915
+best_so_far_loc = 3167
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=34
+ExeTime_offline=234
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 916
+best_so_far_loc = 3166
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=35
+ExeTime_offline=263
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 917
+best_so_far_loc = 3165
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=233
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 918
+best_so_far_loc = 3164
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=216
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 919
+best_so_far_loc = 3163
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=246
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 920
+best_so_far_loc = 3162
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=34
+ExeTime_offline=226
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 921
+best_so_far_loc = 3161
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=251
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 922
+best_so_far_loc = 3160
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=226
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 923
+best_so_far_loc = 3159
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=35
+ExeTime_offline=208
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 924
+best_so_far_loc = 3158
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=236
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 925
+best_so_far_loc = 3157
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=201
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 926
+best_so_far_loc = 3156
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=256
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 927
+best_so_far_loc = 3155
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=33
+ExeTime_offline=232
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 928
+best_so_far_loc = 3154
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=193
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 929
+best_so_far_loc = 3153
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=300
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 930
+best_so_far_loc = 3152
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=226
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 931
+best_so_far_loc = 3151
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=207
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 932
+best_so_far_loc = 3150
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=284
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 933
+best_so_far_loc = 3149
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=29
+ExeTime_offline=253
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 934
+best_so_far_loc = 3148
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=35
+ExeTime_offline=246
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 935
+best_so_far_loc = 3147
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=236
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 936
+best_so_far_loc = 3146
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=28
+ExeTime_offline=205
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 937
+best_so_far_loc = 3145
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=28
+ExeTime_offline=252
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 938
+best_so_far_loc = 3144
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=259
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 939
+best_so_far_loc = 3143
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=29
+ExeTime_offline=216
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 940
+best_so_far_loc = 3142
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=243
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 941
+best_so_far_loc = 3141
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=215
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 942
+best_so_far_loc = 3140
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=229
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 943
+best_so_far_loc = 3139
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=29
+ExeTime_offline=231
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 944
+best_so_far_loc = 3138
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=28
+ExeTime_offline=265
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 945
+best_so_far_loc = 3137
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=227
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 946
+best_so_far_loc = 3136
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=27
+ExeTime_offline=249
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 947
+best_so_far_loc = 3135
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=37
+ExeTime_offline=248
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 948
+best_so_far_loc = 3134
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=28
+ExeTime_offline=289
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 949
+best_so_far_loc = 3133
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=28
+ExeTime_offline=242
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 950
+best_so_far_loc = 3132
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=28
+ExeTime_offline=221
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 951
+best_so_far_loc = 3131
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=36
+ExeTime_offline=217
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 952
+best_so_far_loc = 3130
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=29
+ExeTime_offline=209
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 953
+best_so_far_loc = 3129
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=28
+ExeTime_offline=209
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 954
+best_so_far_loc = 3128
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=29
+ExeTime_offline=318
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 955
+best_so_far_loc = 3127
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=306
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 956
+best_so_far_loc = 3126
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=26
+ExeTime_offline=203
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 957
+best_so_far_loc = 3125
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=27
+ExeTime_offline=247
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 958
+best_so_far_loc = 3124
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=28
+ExeTime_offline=220
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 959
+best_so_far_loc = 3123
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=28
+ExeTime_offline=270
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 960
+best_so_far_loc = 3122
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=28
+ExeTime_offline=229
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 961
+best_so_far_loc = 3121
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=214
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 962
+best_so_far_loc = 3120
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=240
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 963
+best_so_far_loc = 3119
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=28
+ExeTime_offline=236
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 964
+best_so_far_loc = 3118
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=28
+ExeTime_offline=243
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 965
+best_so_far_loc = 3117
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=253
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 966
+best_so_far_loc = 3116
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=27
+ExeTime_offline=222
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 967
+best_so_far_loc = 3115
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=27
+ExeTime_offline=254
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 968
+best_so_far_loc = 3114
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=28
+ExeTime_offline=237
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 969
+best_so_far_loc = 3113
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=228
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 970
+best_so_far_loc = 3112
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=28
+ExeTime_offline=216
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 971
+best_so_far_loc = 3111
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=29
+ExeTime_offline=219
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 972
+best_so_far_loc = 3110
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=28
+ExeTime_offline=237
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 973
+best_so_far_loc = 3109
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=210
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 974
+best_so_far_loc = 3108
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=201
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 975
+best_so_far_loc = 3107
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=28
+ExeTime_offline=236
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 976
+best_so_far_loc = 3106
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=29
+ExeTime_offline=254
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 977
+best_so_far_loc = 3105
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=29
+ExeTime_offline=222
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 978
+best_so_far_loc = 3104
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=204
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 979
+best_so_far_loc = 3103
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=265
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 980
+best_so_far_loc = 3102
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=29
+ExeTime_offline=217
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 981
+best_so_far_loc = 3101
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=29
+ExeTime_offline=216
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 982
+best_so_far_loc = 3100
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=31
+ExeTime_offline=314
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 983
+best_so_far_loc = 3099
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=29
+ExeTime_offline=240
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 984
+best_so_far_loc = 3098
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=215
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 985
+best_so_far_loc = 3097
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=226
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 986
+best_so_far_loc = 3096
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=248
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 987
+best_so_far_loc = 3095
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=29
+ExeTime_offline=243
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 988
+best_so_far_loc = 3094
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=216
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 989
+best_so_far_loc = 3093
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=29
+ExeTime_offline=241
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 990
+best_so_far_loc = 3092
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=29
+ExeTime_offline=238
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 991
+best_so_far_loc = 3091
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=29
+ExeTime_offline=226
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 992
+best_so_far_loc = 3090
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=29
+ExeTime_offline=261
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 993
+best_so_far_loc = 3089
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=252
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 994
+best_so_far_loc = 3088
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=29
+ExeTime_offline=203
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 995
+best_so_far_loc = 3087
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=198
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 996
+best_so_far_loc = 3086
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=28
+ExeTime_offline=217
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 997
+best_so_far_loc = 3085
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=32
+ExeTime_offline=224
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 998
+best_so_far_loc = 3084
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=241
+checked, ok.
+------------------------
+Running case (b).........
+index_stream = 999
+best_so_far_loc = 3083
+best_so_far_dist = 1.1202678251204
+ExeTime_Online=30
+ExeTime_offline=209
+checked, ok.
+------------------------
+The program '[10196] BoundingBoxDiscordDiscovery.vshost.exe' has exited with code -1 (0xffffffff).

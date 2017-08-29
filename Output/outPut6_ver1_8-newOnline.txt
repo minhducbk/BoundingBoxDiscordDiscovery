@@ -1,0 +1,3130 @@
+
+update data (for calculating thres), at index_stream 0
+No discord
+ExeTime_Online=77
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+
+No discord
+ExeTime_Online=186
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=2
+------------------------
+No discord
+ExeTime_Online=2
+------------------------
+No discord
+ExeTime_Online=2
+------------------------
+No discord
+ExeTime_Online=2
+------------------------
+No discord
+ExeTime_Online=2
+------------------------
+No discord
+ExeTime_Online=2
+------------------------
+No discord
+ExeTime_Online=2
+------------------------
+Discord!
+best_so_far_loc = 1531
+best_so_far_dist = 0.433820239269678
+ExeTime_Online=7
+------------------------
+Discord!
+best_so_far_loc = 1530
+best_so_far_dist = 0.523163454381134
+ExeTime_Online=6
+------------------------
+Discord!
+best_so_far_loc = 1591
+best_so_far_dist = 0.610409698481274
+ExeTime_Online=5
+------------------------
+Discord!
+best_so_far_loc = 929
+best_so_far_dist = 0.666258208204597
+ExeTime_Online=5
+------------------------
+Discord!
+best_so_far_loc = 567
+best_so_far_dist = 0.728903285765677
+ExeTime_Online=5
+------------------------
+Discord!
+best_so_far_loc = 567
+best_so_far_dist = 0.790948797331408
+ExeTime_Online=151
+------------------------
+Discord!
+best_so_far_loc = 1273
+best_so_far_dist = 0.828673639015988
+ExeTime_Online=7
+------------------------
+Discord!
+best_so_far_loc = 1273
+best_so_far_dist = 0.845399313933954
+ExeTime_Online=10
+------------------------
+Discord!
+best_so_far_loc = 570
+best_so_far_dist = 0.864349466361841
+ExeTime_Online=6
+------------------------
+Discord!
+best_so_far_loc = 569
+best_so_far_dist = 0.890393171582083
+ExeTime_Online=5
+------------------------
+Discord!
+best_so_far_loc = 568
+best_so_far_dist = 0.922442410126507
+ExeTime_Online=5
+------------------------
+Discord!
+best_so_far_loc = 568
+best_so_far_dist = 0.947470316157715
+ExeTime_Online=5
+------------------------
+Discord!
+best_so_far_loc = 567
+best_so_far_dist = 0.956869897112455
+ExeTime_Online=5
+------------------------
+Discord!
+best_so_far_loc = 567
+best_so_far_dist = 0.960156237286412
+ExeTime_Online=5
+------------------------
+Discord!
+best_so_far_loc = 567
+best_so_far_dist = 0.960624796681826
+ExeTime_Online=149
+------------------------
+Discord!
+best_so_far_loc = 567
+best_so_far_dist = 0.958957767578948
+ExeTime_Online=31
+------------------------
+Discord!
+best_so_far_loc = 567
+best_so_far_dist = 0.974422906134703
+ExeTime_Online=17
+------------------------
+Discord!
+best_so_far_loc = 568
+best_so_far_dist = 1.01345942197998
+ExeTime_Online=13
+------------------------
+Discord!
+best_so_far_loc = 569
+best_so_far_dist = 1.05863119168103
+ExeTime_Online=8
+------------------------
+Discord!
+best_so_far_loc = 569
+best_so_far_dist = 1.09498858441538
+ExeTime_Online=5
+------------------------
+Discord!
+best_so_far_loc = 569
+best_so_far_dist = 1.11476454913134
+ExeTime_Online=5
+------------------------
+Discord!
+best_so_far_loc = 569
+best_so_far_dist = 1.11946415753252
+ExeTime_Online=5
+------------------------
+Discord!
+best_so_far_loc = 569
+best_so_far_dist = 1.11892805845595
+ExeTime_Online=5
+------------------------
+Discord!
+best_so_far_loc = 569
+best_so_far_dist = 1.1195981421921
+ExeTime_Online=107
+------------------------
+Discord!
+best_so_far_loc = 569
+best_so_far_dist = 1.11937482551646
+ExeTime_Online=18
+------------------------
+Discord!
+best_so_far_loc = 569
+best_so_far_dist = 1.11655720856569
+ExeTime_Online=9
+------------------------
+Discord!
+best_so_far_loc = 569
+best_so_far_dist = 1.11027023737467
+ExeTime_Online=11
+------------------------
+Discord!
+best_so_far_loc = 569
+best_so_far_dist = 1.10181668166715
+ExeTime_Online=10
+------------------------
+Discord!
+best_so_far_loc = 569
+best_so_far_dist = 1.09055031979272
+ExeTime_Online=6
+------------------------
+Discord!
+best_so_far_loc = 569
+best_so_far_dist = 1.06602063769891
+ExeTime_Online=5
+------------------------
+Discord!
+best_so_far_loc = 569
+best_so_far_dist = 1.03387620148643
+ExeTime_Online=5
+------------------------
+Discord!
+best_so_far_loc = 569
+best_so_far_dist = 1.00319489631876
+ExeTime_Online=5
+------------------------
+Discord!
+best_so_far_loc = 569
+best_so_far_dist = 0.97923439482077
+ExeTime_Online=128
+------------------------
+Discord!
+best_so_far_loc = 1602
+best_so_far_dist = 0.956294933584822
+ExeTime_Online=20
+------------------------
+Discord!
+best_so_far_loc = 1603
+best_so_far_dist = 0.931289428695505
+ExeTime_Online=10
+------------------------
+Discord!
+best_so_far_loc = 1603
+best_so_far_dist = 0.910054943396276
+ExeTime_Online=8
+------------------------
+Discord!
+best_so_far_loc = 1603
+best_so_far_dist = 0.901221393443364
+ExeTime_Online=11
+------------------------
+Discord!
+best_so_far_loc = 1603
+best_so_far_dist = 0.900166651237425
+ExeTime_Online=7
+------------------------
+Discord!
+best_so_far_loc = 1603
+best_so_far_dist = 0.900166651237425
+ExeTime_Online=7
+------------------------
+Discord!
+best_so_far_loc = 1603
+best_so_far_dist = 0.9013323471395
+ExeTime_Online=5
+------------------------
+Discord!
+best_so_far_loc = 1603
+best_so_far_dist = 0.903105752390051
+ExeTime_Online=5
+------------------------
+Discord!
+best_so_far_loc = 1603
+best_so_far_dist = 0.900055553840983
+ExeTime_Online=123
+------------------------
+Discord!
+best_so_far_loc = 1603
+best_so_far_dist = 0.894483090952534
+ExeTime_Online=34
+------------------------
+Discord!
+best_so_far_loc = 1603
+best_so_far_dist = 0.88436417837902
+ExeTime_Online=12
+------------------------
+Discord!
+best_so_far_loc = 569
+best_so_far_dist = 0.859069263796581
+ExeTime_Online=11
+------------------------
+Discord!
+best_so_far_loc = 569
+best_so_far_dist = 0.789176786277954
+ExeTime_Online=12
+------------------------
+Discord!
+best_so_far_loc = 569
+best_so_far_dist = 0.754983443527075
+ExeTime_Online=8
+------------------------
+Discord!
+best_so_far_loc = 569
+best_so_far_dist = 0.745452882481515
+ExeTime_Online=7
+------------------------
+Discord!
+best_so_far_loc = 1273
+best_so_far_dist = 0.73109506905737
+ExeTime_Online=7
+------------------------
+Discord!
+best_so_far_loc = 1273
+best_so_far_dist = 0.679705818718657
+ExeTime_Online=8
+------------------------
+Discord!
+best_so_far_loc = 1273
+best_so_far_dist = 0.605640157189068
+ExeTime_Online=96
+------------------------
+Discord!
+best_so_far_loc = 1274
+best_so_far_dist = 0.546534536877588
+ExeTime_Online=26
+------------------------
+Discord!
+best_so_far_loc = 1274
+best_so_far_dist = 0.5081338406365
+ExeTime_Online=23
+------------------------
+Discord!
+best_so_far_loc = 1274
+best_so_far_dist = 0.476864760702654
+ExeTime_Online=12
+------------------------
+Discord!
+best_so_far_loc = 2588
+best_so_far_dist = 0.429767378938886
+ExeTime_Online=11
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=2
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=2
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=2
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=3
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=3
+------------------------
+No discord
+ExeTime_Online=3
+------------------------
+No discord
+ExeTime_Online=7
+------------------------
+No discord
+ExeTime_Online=7
+------------------------
+No discord
+ExeTime_Online=9
+------------------------
+No discord
+ExeTime_Online=6
+------------------------
+No discord
+ExeTime_Online=2
+------------------------
+No discord
+ExeTime_Online=2
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=2
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+update data (for calculating thres), at index_stream 370
+No discord
+ExeTime_Online=48
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=191
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=191
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=2
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=5
+------------------------
+No discord
+ExeTime_Online=5
+------------------------
+No discord
+ExeTime_Online=6
+------------------------
+No discord
+ExeTime_Online=5
+------------------------
+No discord
+ExeTime_Online=5
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=2
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=5
+------------------------
+No discord
+ExeTime_Online=5
+------------------------
+No discord
+ExeTime_Online=4
+------------------------
+No discord
+ExeTime_Online=3
+------------------------
+No discord
+ExeTime_Online=2
+------------------------
+No discord
+ExeTime_Online=2
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=179
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=2
+------------------------
+No discord
+ExeTime_Online=2
+------------------------
+No discord
+ExeTime_Online=2
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+Discord!
+best_so_far_loc = 3282
+best_so_far_dist = 0.507050293363489
+ExeTime_Online=5
+------------------------
+Discord!
+best_so_far_loc = 3282
+best_so_far_dist = 0.500599640431354
+ExeTime_Online=6
+------------------------
+Discord!
+best_so_far_loc = 3282
+best_so_far_dist = 0.495782210249622
+ExeTime_Online=7
+------------------------
+Discord!
+best_so_far_loc = 3282
+best_so_far_dist = 0.495782210249622
+ExeTime_Online=5
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=5
+------------------------
+No discord
+ExeTime_Online=5
+------------------------
+No discord
+ExeTime_Online=5
+------------------------
+No discord
+ExeTime_Online=5
+------------------------
+No discord
+ExeTime_Online=4
+------------------------
+No discord
+ExeTime_Online=3
+------------------------
+No discord
+ExeTime_Online=5
+------------------------
+No discord
+ExeTime_Online=4
+------------------------
+No discord
+ExeTime_Online=4
+------------------------
+No discord
+ExeTime_Online=4
+------------------------
+No discord
+ExeTime_Online=4
+------------------------
+No discord
+ExeTime_Online=4
+------------------------
+No discord
+ExeTime_Online=3
+------------------------
+No discord
+ExeTime_Online=3
+------------------------
+No discord
+ExeTime_Online=2
+------------------------
+No discord
+ExeTime_Online=2
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=188
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+update data (for calculating thres), at index_stream 740
+No discord
+ExeTime_Online=187
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=3
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=2
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=179
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=2
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=180
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=2
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=185
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=8
+------------------------
+No discord
+ExeTime_Online=7
+------------------------
+No discord
+ExeTime_Online=7
+------------------------
+No discord
+ExeTime_Online=6
+------------------------
+No discord
+ExeTime_Online=6
+------------------------
+No discord
+ExeTime_Online=5
+------------------------
+No discord
+ExeTime_Online=6
+------------------------
+No discord
+ExeTime_Online=6
+------------------------
+No discord
+ExeTime_Online=5
+------------------------
+No discord
+ExeTime_Online=5
+------------------------
+No discord
+ExeTime_Online=6
+------------------------
+No discord
+ExeTime_Online=5
+------------------------
+No discord
+ExeTime_Online=5
+------------------------
+No discord
+ExeTime_Online=9
+------------------------
+No discord
+ExeTime_Online=6
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+No discord
+ExeTime_Online=0
+------------------------
+No discord
+ExeTime_Online=1
+------------------------
+--- Streaming's done (run out of data) ---
+The thread 0x2390 has exited with code 0 (0x0).
+The thread 0x79c has exited with code 0 (0x0).
+The program '[932] BoundingBoxDiscordDiscovery.vshost.exe' has exited with code 0 (0x0).
